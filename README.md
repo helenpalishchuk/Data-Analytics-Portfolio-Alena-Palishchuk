@@ -2,11 +2,11 @@
 
 Analysis of IT support tickets and user provisioning/deprovisioning events in a hybrid
 Active Directory / Microsoft Entra ID environment. Based on the kind of operational data
-I worked with as a Support Engineer (IAM) — reframed here as a data analytics project
+I worked with as a Support Engineer (IAM) - reframed here as a data analytics project
 using **Python (pandas)** and **SQL (SQLite)**.
 
 ## Objective
-Identify SLA compliance gaps and security risk patterns in identity lifecycle management —
+Identify SLA compliance gaps and security risk patterns in identity lifecycle management -
 specifically, how quickly accounts are provisioned/deprovisioned and where support tickets
 breach service-level targets.
 
