@@ -1,0 +1,781 @@
+event_id,event_type,department,environment,request_date,completed_date,completion_hours,sla_target_hours,met_sla
+PRV-5000,Provisioning,HR,Active Directory,2025-10-08,2025-10-08 00:30:00.000000,0.5,8,True
+PRV-5001,Provisioning,Sales,Hybrid (AD + Entra ID),2025-09-17,2025-09-17 00:53:18.099287,0.89,8,True
+PRV-5002,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-10-11,2025-10-11 04:18:20.256240,4.31,4,False
+PRV-5003,Provisioning,Marketing,Active Directory,2025-12-10,2025-12-10 01:38:23.912705,1.64,8,True
+PRV-5004,Deprovisioning,Marketing,Microsoft Entra ID,2025-11-21,2025-11-21 04:22:05.540107,4.37,4,False
+PRV-5005,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-12-31,2025-12-31 02:01:29.294142,2.02,4,True
+PRV-5006,Deprovisioning,Sales,Active Directory,2025-11-10,2025-11-10 01:25:39.716900,1.43,4,True
+PRV-5007,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-08-15,2025-08-15 05:00:07.886661,5.0,8,True
+PRV-5008,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-04-19,2026-04-19 03:05:56.798910,3.1,8,True
+PRV-5009,Provisioning,Sales,Active Directory,2025-10-31,2025-10-31 03:12:32.627356,3.21,8,True
+PRV-5010,Provisioning,Legal,Active Directory,2026-05-14,2026-05-14 02:45:57.430424,2.77,8,True
+PRV-5011,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-01-28,2026-01-28 01:16:47.496162,1.28,4,True
+PRV-5012,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-05-11,2026-05-11 00:56:10.023692,0.94,4,True
+PRV-5013,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2026-02-04,2026-02-04 00:13:10.153209,0.22,4,True
+PRV-5014,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-12-07,2025-12-07 05:12:36.173337,5.21,4,False
+PRV-5015,Provisioning,Operations,Hybrid (AD + Entra ID),2025-12-22,2025-12-22 10:20:34.448952,10.34,8,False
+PRV-5016,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-01-20,2026-01-20 00:32:33.706485,0.54,8,True
+PRV-5017,Provisioning,Marketing,Active Directory,2026-05-16,2026-05-16 00:30:00.000000,0.5,8,True
+PRV-5018,Provisioning,Legal,Active Directory,2025-12-27,2025-12-27 01:56:07.783325,1.94,8,True
+PRV-5019,Provisioning,Marketing,Active Directory,2026-02-22,2026-02-22 01:25:14.045493,1.42,8,True
+PRV-5020,Provisioning,Legal,Active Directory,2026-04-03,2026-04-03 00:33:35.877708,0.56,8,True
+PRV-5021,Provisioning,Legal,Active Directory,2026-01-25,2026-01-25 13:10:58.119319,13.18,8,False
+PRV-5022,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-11,2025-07-11 00:30:00.000000,0.5,8,True
+PRV-5023,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-11-18,2025-11-18 05:46:59.001097,5.78,4,False
+PRV-5024,Provisioning,Legal,Active Directory,2026-06-18,2026-06-18 07:28:13.888678,7.47,8,True
+PRV-5025,Deprovisioning,Sales,Active Directory,2026-01-06,2026-01-06 05:35:57.782113,5.6,4,False
+PRV-5026,Provisioning,Engineering,Microsoft Entra ID,2025-08-03,2025-08-03 01:01:22.802074,1.02,8,True
+PRV-5027,Deprovisioning,Operations,Active Directory,2025-09-15,2025-09-15 07:08:59.226045,7.15,4,False
+PRV-5028,Deprovisioning,Operations,Microsoft Entra ID,2025-10-10,2025-10-10 01:20:10.869979,1.34,4,True
+PRV-5029,Deprovisioning,Finance,Microsoft Entra ID,2025-08-30,2025-08-30 00:44:49.447405,0.75,4,True
+PRV-5030,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-12-04,2025-12-04 00:12:00.000000,0.2,4,True
+PRV-5031,Provisioning,Operations,Microsoft Entra ID,2025-10-21,2025-10-21 03:16:27.903044,3.27,8,True
+PRV-5032,Provisioning,Finance,Microsoft Entra ID,2025-11-30,2025-11-30 04:46:03.655216,4.77,8,True
+PRV-5033,Provisioning,Finance,Microsoft Entra ID,2025-09-30,2025-09-30 05:32:58.304696,5.55,8,True
+PRV-5034,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-08-21,2025-08-21 00:53:53.052545,0.9,4,True
+PRV-5035,Provisioning,Sales,Active Directory,2025-10-01,2025-10-01 01:19:54.984595,1.33,8,True
+PRV-5036,Provisioning,Marketing,Active Directory,2025-11-30,2025-11-30 02:03:56.859524,2.07,8,True
+PRV-5037,Provisioning,Operations,Microsoft Entra ID,2025-11-26,2025-11-26 03:17:05.916258,3.28,8,True
+PRV-5038,Deprovisioning,Marketing,Active Directory,2025-12-14,2025-12-14 00:12:00.000000,0.2,4,True
+PRV-5039,Deprovisioning,HR,Microsoft Entra ID,2025-08-15,2025-08-15 03:40:50.655804,3.68,4,True
+PRV-5040,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-04-01,2026-04-01 08:32:13.406489,8.54,4,False
+PRV-5041,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-11-27,2025-11-27 02:06:45.326267,2.11,8,True
+PRV-5042,Provisioning,Marketing,Microsoft Entra ID,2025-09-15,2025-09-15 06:15:08.589516,6.25,8,True
+PRV-5043,Provisioning,Engineering,Microsoft Entra ID,2026-05-15,2026-05-15 02:38:16.475833,2.64,8,True
+PRV-5044,Provisioning,Engineering,Microsoft Entra ID,2025-12-03,2025-12-03 05:51:47.579031,5.86,8,True
+PRV-5045,Provisioning,Engineering,Microsoft Entra ID,2025-08-26,2025-08-26 11:33:46.342077,11.56,8,False
+PRV-5046,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-05-26,2026-05-26 00:33:09.908282,0.55,8,True
+PRV-5047,Deprovisioning,Finance,Active Directory,2025-07-23,2025-07-23 00:16:20.036487,0.27,4,True
+PRV-5048,Provisioning,Finance,Microsoft Entra ID,2025-07-22,2025-07-22 04:20:53.329096,4.35,8,True
+PRV-5049,Provisioning,Marketing,Microsoft Entra ID,2025-08-20,2025-08-20 01:27:33.900645,1.46,8,True
+PRV-5050,Provisioning,Marketing,Active Directory,2025-10-14,2025-10-14 05:49:47.276993,5.83,8,True
+PRV-5051,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-03-24,2026-03-24 01:16:20.533818,1.27,4,True
+PRV-5052,Provisioning,Operations,Microsoft Entra ID,2025-08-21,2025-08-21 03:11:16.970630,3.19,8,True
+PRV-5053,Deprovisioning,Legal,Microsoft Entra ID,2025-11-29,2025-11-29 01:49:43.316262,1.83,4,True
+PRV-5054,Provisioning,Legal,Hybrid (AD + Entra ID),2026-01-04,2026-01-04 04:31:43.899160,4.53,8,True
+PRV-5055,Provisioning,Engineering,Microsoft Entra ID,2026-05-19,2026-05-19 00:30:00.000000,0.5,8,True
+PRV-5056,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-11-15,2025-11-15 00:37:49.862211,0.63,4,True
+PRV-5057,Provisioning,Sales,Active Directory,2025-09-20,2025-09-20 01:32:46.673144,1.55,8,True
+PRV-5058,Provisioning,Marketing,Active Directory,2025-12-01,2025-12-01 00:38:56.497428,0.65,8,True
+PRV-5059,Provisioning,Engineering,Microsoft Entra ID,2026-04-16,2026-04-16 01:46:44.069093,1.78,8,True
+PRV-5060,Deprovisioning,Legal,Hybrid (AD + Entra ID),2025-11-26,2025-11-26 04:14:29.329614,4.24,4,False
+PRV-5061,Provisioning,Finance,Hybrid (AD + Entra ID),2025-11-06,2025-11-06 00:33:30.637983,0.56,8,True
+PRV-5062,Deprovisioning,Legal,Microsoft Entra ID,2026-01-19,2026-01-19 00:12:00.000000,0.2,4,True
+PRV-5063,Deprovisioning,Sales,Active Directory,2026-01-21,2026-01-21 00:52:33.161791,0.88,4,True
+PRV-5064,Provisioning,Engineering,Active Directory,2026-05-17,2026-05-17 01:03:43.387739,1.06,8,True
+PRV-5065,Provisioning,Legal,Microsoft Entra ID,2026-06-02,2026-06-02 00:30:00.000000,0.5,8,True
+PRV-5066,Deprovisioning,Marketing,Microsoft Entra ID,2025-11-15,2025-11-15 04:41:01.754159,4.68,4,False
+PRV-5067,Provisioning,Sales,Hybrid (AD + Entra ID),2026-04-14,2026-04-14 02:38:00.133389,2.63,8,True
+PRV-5068,Provisioning,Finance,Microsoft Entra ID,2025-10-30,2025-10-30 01:55:41.535059,1.93,8,True
+PRV-5069,Deprovisioning,Marketing,Microsoft Entra ID,2026-05-04,2026-05-04 00:46:23.645257,0.77,4,True
+PRV-5070,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-09-11,2025-09-11 00:55:57.018681,0.93,4,True
+PRV-5071,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-10-13,2025-10-13 01:43:56.377294,1.73,4,True
+PRV-5072,Deprovisioning,Marketing,Active Directory,2026-01-17,2026-01-17 00:30:05.678646,0.5,4,True
+PRV-5073,Provisioning,Operations,Hybrid (AD + Entra ID),2026-03-29,2026-03-29 05:55:06.007210,5.92,8,True
+PRV-5074,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-11-02,2025-11-02 02:43:10.185515,2.72,4,True
+PRV-5075,Provisioning,Legal,Microsoft Entra ID,2025-12-08,2025-12-08 07:48:03.868618,7.8,8,True
+PRV-5076,Provisioning,HR,Hybrid (AD + Entra ID),2026-01-18,2026-01-18 01:41:24.062619,1.69,8,True
+PRV-5077,Deprovisioning,Sales,Active Directory,2026-03-10,2026-03-10 00:48:57.303789,0.82,4,True
+PRV-5078,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-01-17,2026-01-17 02:31:59.579947,2.53,4,True
+PRV-5079,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-08-11,2025-08-11 03:24:37.971236,3.41,4,True
+PRV-5080,Deprovisioning,Marketing,Microsoft Entra ID,2026-05-21,2026-05-21 01:00:59.456681,1.02,4,True
+PRV-5081,Deprovisioning,Finance,Active Directory,2025-08-25,2025-08-25 00:12:00.000000,0.2,4,True
+PRV-5082,Provisioning,HR,Active Directory,2025-12-09,2025-12-10 04:33:36.927148,28.56,8,False
+PRV-5083,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-01-04,2026-01-04 00:32:15.389498,0.54,4,True
+PRV-5084,Provisioning,Operations,Hybrid (AD + Entra ID),2025-07-14,2025-07-14 02:56:12.618973,2.94,8,True
+PRV-5085,Provisioning,HR,Hybrid (AD + Entra ID),2025-08-17,2025-08-17 02:51:51.645099,2.86,8,True
+PRV-5086,Provisioning,Sales,Active Directory,2026-05-03,2026-05-03 01:21:16.349001,1.35,8,True
+PRV-5087,Provisioning,Sales,Microsoft Entra ID,2025-07-10,2025-07-10 00:30:00.000000,0.5,8,True
+PRV-5088,Deprovisioning,Operations,Microsoft Entra ID,2026-03-28,2026-03-28 01:08:20.798219,1.14,4,True
+PRV-5089,Deprovisioning,Finance,Microsoft Entra ID,2025-08-03,2025-08-03 04:54:20.534657,4.91,4,False
+PRV-5090,Deprovisioning,Operations,Microsoft Entra ID,2025-12-29,2025-12-29 00:24:01.602955,0.4,4,True
+PRV-5091,Provisioning,Legal,Microsoft Entra ID,2026-02-26,2026-02-26 01:10:32.405542,1.18,8,True
+PRV-5092,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-06-19,2026-06-19 00:30:00.000000,0.5,8,True
+PRV-5093,Provisioning,Legal,Hybrid (AD + Entra ID),2026-05-13,2026-05-13 02:16:16.876338,2.27,8,True
+PRV-5094,Deprovisioning,Engineering,Active Directory,2025-07-08,2025-07-08 01:13:05.033002,1.22,4,True
+PRV-5095,Provisioning,Sales,Active Directory,2025-07-20,2025-07-20 06:35:29.003751,6.59,8,True
+PRV-5096,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-08-23,2025-08-23 10:58:47.453685,10.98,8,False
+PRV-5097,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-04-16,2026-04-16 14:47:41.409855,14.79,8,False
+PRV-5098,Provisioning,Sales,Active Directory,2026-06-15,2026-06-15 00:52:43.720466,0.88,8,True
+PRV-5099,Deprovisioning,Operations,Microsoft Entra ID,2025-09-10,2025-09-10 08:02:40.956247,8.04,4,False
+PRV-5100,Provisioning,Sales,Microsoft Entra ID,2026-05-26,2026-05-26 09:22:42.121233,9.38,8,False
+PRV-5101,Provisioning,HR,Microsoft Entra ID,2025-11-16,2025-11-16 00:41:40.319106,0.69,8,True
+PRV-5102,Deprovisioning,Sales,Microsoft Entra ID,2025-12-25,2025-12-25 00:23:14.790391,0.39,4,True
+PRV-5103,Provisioning,HR,Microsoft Entra ID,2025-12-06,2025-12-06 02:09:12.129214,2.15,8,True
+PRV-5104,Provisioning,Legal,Hybrid (AD + Entra ID),2026-01-12,2026-01-12 01:01:43.161771,1.03,8,True
+PRV-5105,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-02-26,2026-02-26 00:20:25.207573,0.34,4,True
+PRV-5106,Provisioning,Legal,Active Directory,2025-10-12,2025-10-12 03:58:04.066660,3.97,8,True
+PRV-5107,Deprovisioning,Sales,Microsoft Entra ID,2025-07-19,2025-07-19 05:03:18.561670,5.06,4,False
+PRV-5108,Provisioning,Sales,Microsoft Entra ID,2025-07-13,2025-07-13 01:30:47.037032,1.51,8,True
+PRV-5109,Deprovisioning,Operations,Microsoft Entra ID,2025-12-16,2025-12-16 00:15:34.790339,0.26,4,True
+PRV-5110,Provisioning,Sales,Active Directory,2026-05-11,2026-05-11 02:16:53.184879,2.28,8,True
+PRV-5111,Provisioning,Finance,Active Directory,2025-12-03,2025-12-03 00:30:00.000000,0.5,8,True
+PRV-5112,Provisioning,Legal,Hybrid (AD + Entra ID),2026-06-20,2026-06-20 07:42:32.695681,7.71,8,True
+PRV-5113,Provisioning,Engineering,Microsoft Entra ID,2025-08-14,2025-08-14 07:22:48.806380,7.38,8,True
+PRV-5114,Provisioning,Legal,Hybrid (AD + Entra ID),2026-04-11,2026-04-11 10:38:14.450863,10.64,8,False
+PRV-5115,Provisioning,Sales,Hybrid (AD + Entra ID),2025-07-31,2025-07-31 06:34:27.152910,6.57,8,True
+PRV-5116,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-04-07,2026-04-07 01:02:38.347717,1.04,8,True
+PRV-5117,Deprovisioning,Legal,Microsoft Entra ID,2025-07-03,2025-07-03 00:54:48.633956,0.91,4,True
+PRV-5118,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-11-19,2025-11-19 07:37:42.203604,7.63,8,True
+PRV-5119,Provisioning,Operations,Microsoft Entra ID,2025-11-16,2025-11-16 10:28:09.880711,10.47,8,False
+PRV-5120,Provisioning,HR,Hybrid (AD + Entra ID),2025-11-13,2025-11-13 04:27:46.634965,4.46,8,True
+PRV-5121,Provisioning,Operations,Hybrid (AD + Entra ID),2025-08-17,2025-08-17 00:30:00.000000,0.5,8,True
+PRV-5122,Deprovisioning,Finance,Microsoft Entra ID,2025-11-16,2025-11-16 00:12:00.000000,0.2,4,True
+PRV-5123,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-04-30,2026-04-30 04:03:57.565626,4.07,8,True
+PRV-5124,Provisioning,Engineering,Microsoft Entra ID,2026-05-10,2026-05-10 00:33:04.772304,0.55,8,True
+PRV-5125,Provisioning,Sales,Hybrid (AD + Entra ID),2025-07-28,2025-07-28 05:48:53.776193,5.81,8,True
+PRV-5126,Provisioning,Operations,Active Directory,2026-01-17,2026-01-17 08:04:27.131493,8.07,8,False
+PRV-5127,Provisioning,Marketing,Active Directory,2025-08-02,2025-08-02 05:45:49.539846,5.76,8,True
+PRV-5128,Deprovisioning,Sales,Active Directory,2026-04-29,2026-04-29 00:12:00.000000,0.2,4,True
+PRV-5129,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-03-01,2026-03-01 00:12:00.000000,0.2,4,True
+PRV-5130,Deprovisioning,Legal,Microsoft Entra ID,2025-08-28,2025-08-28 03:23:35.170513,3.39,4,True
+PRV-5131,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-03-03,2026-03-03 02:02:29.159778,2.04,8,True
+PRV-5132,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-09-30,2025-09-30 00:24:20.227151,0.41,4,True
+PRV-5133,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-01-15,2026-01-15 00:21:27.558404,0.36,4,True
+PRV-5134,Provisioning,Engineering,Active Directory,2026-03-06,2026-03-06 03:09:50.594281,3.16,8,True
+PRV-5135,Provisioning,Finance,Hybrid (AD + Entra ID),2025-08-21,2025-08-21 05:54:01.372289,5.9,8,True
+PRV-5136,Provisioning,Marketing,Microsoft Entra ID,2025-08-02,2025-08-02 10:55:21.128316,10.92,8,False
+PRV-5137,Provisioning,Finance,Hybrid (AD + Entra ID),2025-11-10,2025-11-10 02:14:40.571309,2.24,8,True
+PRV-5138,Provisioning,Finance,Active Directory,2025-10-24,2025-10-24 06:28:55.402628,6.48,8,True
+PRV-5139,Provisioning,Legal,Hybrid (AD + Entra ID),2026-03-27,2026-03-27 09:03:51.484080,9.06,8,False
+PRV-5140,Deprovisioning,Finance,Active Directory,2025-08-18,2025-08-18 05:09:30.355259,5.16,4,False
+PRV-5141,Provisioning,Engineering,Microsoft Entra ID,2025-10-21,2025-10-21 01:50:23.693645,1.84,8,True
+PRV-5142,Provisioning,HR,Hybrid (AD + Entra ID),2025-10-19,2025-10-19 00:30:00.000000,0.5,8,True
+PRV-5143,Provisioning,Legal,Hybrid (AD + Entra ID),2026-05-25,2026-05-25 06:33:27.531215,6.56,8,True
+PRV-5144,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-03-08,2026-03-08 06:01:18.515990,6.02,4,False
+PRV-5145,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-05-16,2026-05-16 05:30:28.015150,5.51,8,True
+PRV-5146,Provisioning,Legal,Microsoft Entra ID,2025-08-20,2025-08-20 06:17:37.064638,6.29,8,True
+PRV-5147,Provisioning,HR,Active Directory,2025-10-18,2025-10-18 03:50:15.639890,3.84,8,True
+PRV-5148,Deprovisioning,Finance,Microsoft Entra ID,2026-06-21,2026-06-21 02:38:38.621808,2.64,4,True
+PRV-5149,Deprovisioning,HR,Active Directory,2026-01-06,2026-01-06 00:55:24.671639,0.92,4,True
+PRV-5150,Deprovisioning,Finance,Microsoft Entra ID,2025-07-25,2025-07-25 04:35:49.342827,4.6,4,False
+PRV-5151,Provisioning,Finance,Hybrid (AD + Entra ID),2026-05-02,2026-05-02 10:47:28.668102,10.79,8,False
+PRV-5152,Deprovisioning,Finance,Microsoft Entra ID,2025-07-14,2025-07-14 00:41:20.204793,0.69,4,True
+PRV-5153,Deprovisioning,Legal,Microsoft Entra ID,2025-10-13,2025-10-13 07:58:20.044131,7.97,4,False
+PRV-5154,Provisioning,Marketing,Microsoft Entra ID,2025-11-21,2025-11-21 06:29:28.436890,6.49,8,True
+PRV-5155,Provisioning,Sales,Microsoft Entra ID,2026-06-10,2026-06-10 11:28:50.295707,11.48,8,False
+PRV-5156,Provisioning,Legal,Microsoft Entra ID,2026-02-06,2026-02-06 00:33:42.177258,0.56,8,True
+PRV-5157,Provisioning,Legal,Microsoft Entra ID,2026-04-09,2026-04-09 10:20:03.075371,10.33,8,False
+PRV-5158,Provisioning,Operations,Microsoft Entra ID,2025-09-06,2025-09-06 14:26:31.178311,14.44,8,False
+PRV-5159,Provisioning,Finance,Microsoft Entra ID,2025-09-01,2025-09-01 04:03:28.334890,4.06,8,True
+PRV-5160,Provisioning,Legal,Microsoft Entra ID,2026-01-08,2026-01-08 05:47:40.177668,5.79,8,True
+PRV-5161,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-11-29,2025-11-29 03:34:03.488358,3.57,8,True
+PRV-5162,Provisioning,Finance,Hybrid (AD + Entra ID),2026-04-23,2026-04-23 20:52:52.038681,20.88,8,False
+PRV-5163,Deprovisioning,Sales,Microsoft Entra ID,2025-07-17,2025-07-17 00:12:00.000000,0.2,4,True
+PRV-5164,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-01-26,2026-01-26 03:11:09.399133,3.19,4,True
+PRV-5165,Provisioning,Legal,Hybrid (AD + Entra ID),2025-08-22,2025-08-23 01:21:22.360355,25.36,8,False
+PRV-5166,Provisioning,Finance,Active Directory,2025-07-31,2025-07-31 02:39:44.899294,2.66,8,True
+PRV-5167,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-04-21,2026-04-21 03:51:43.003663,3.86,4,True
+PRV-5168,Provisioning,HR,Hybrid (AD + Entra ID),2026-01-29,2026-01-29 02:54:42.952585,2.91,8,True
+PRV-5169,Provisioning,Legal,Hybrid (AD + Entra ID),2026-06-27,2026-06-27 04:49:45.831200,4.83,8,True
+PRV-5170,Provisioning,Engineering,Microsoft Entra ID,2026-04-26,2026-04-26 06:08:06.333370,6.14,8,True
+PRV-5171,Provisioning,Finance,Microsoft Entra ID,2025-07-16,2025-07-16 00:30:00.000000,0.5,8,True
+PRV-5172,Deprovisioning,Marketing,Microsoft Entra ID,2026-05-23,2026-05-23 07:16:38.468078,7.28,4,False
+PRV-5173,Deprovisioning,Finance,Active Directory,2025-09-24,2025-09-24 04:01:27.879209,4.02,4,False
+PRV-5174,Deprovisioning,Engineering,Active Directory,2026-03-26,2026-03-26 04:27:53.987443,4.46,4,False
+PRV-5175,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-12-27,2025-12-27 00:12:00.000000,0.2,4,True
+PRV-5176,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-03-19,2026-03-19 02:06:48.863206,2.11,4,True
+PRV-5177,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-02-10,2026-02-10 00:49:13.391115,0.82,4,True
+PRV-5178,Provisioning,Marketing,Microsoft Entra ID,2025-09-16,2025-09-16 02:50:29.027808,2.84,8,True
+PRV-5179,Provisioning,Marketing,Microsoft Entra ID,2026-06-22,2026-06-22 05:20:36.136146,5.34,8,True
+PRV-5180,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-09-11,2025-09-11 02:49:57.750108,2.83,4,True
+PRV-5181,Provisioning,Operations,Microsoft Entra ID,2026-06-13,2026-06-13 01:17:29.253919,1.29,8,True
+PRV-5182,Deprovisioning,Sales,Active Directory,2026-04-01,2026-04-01 04:56:48.152185,4.95,4,False
+PRV-5183,Provisioning,Sales,Active Directory,2025-12-03,2025-12-03 04:13:44.892855,4.23,8,True
+PRV-5184,Provisioning,Operations,Hybrid (AD + Entra ID),2026-03-30,2026-03-30 15:56:55.044555,15.95,8,False
+PRV-5185,Deprovisioning,Engineering,Microsoft Entra ID,2026-05-26,2026-05-26 01:57:00.937651,1.95,4,True
+PRV-5186,Provisioning,Engineering,Active Directory,2026-01-14,2026-01-14 03:42:58.318831,3.72,8,True
+PRV-5187,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-03-14,2026-03-14 00:34:56.115466,0.58,4,True
+PRV-5188,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-12-12,2025-12-12 05:48:44.722993,5.81,8,True
+PRV-5189,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-06-24,2026-06-24 02:55:21.224780,2.92,8,True
+PRV-5190,Provisioning,Legal,Hybrid (AD + Entra ID),2026-03-18,2026-03-18 01:09:55.824516,1.17,8,True
+PRV-5191,Provisioning,Finance,Hybrid (AD + Entra ID),2026-02-16,2026-02-16 02:26:15.195732,2.44,8,True
+PRV-5192,Provisioning,HR,Active Directory,2025-07-06,2025-07-06 00:38:17.203423,0.64,8,True
+PRV-5193,Provisioning,Engineering,Microsoft Entra ID,2026-03-30,2026-03-30 11:06:12.498323,11.1,8,False
+PRV-5194,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-07-13,2025-07-13 00:25:23.479221,0.42,4,True
+PRV-5195,Provisioning,HR,Microsoft Entra ID,2026-02-06,2026-02-06 07:50:42.758388,7.85,8,True
+PRV-5196,Provisioning,Operations,Hybrid (AD + Entra ID),2025-08-12,2025-08-12 00:30:00.000000,0.5,8,True
+PRV-5197,Provisioning,HR,Active Directory,2026-01-03,2026-01-03 01:39:11.908410,1.65,8,True
+PRV-5198,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-03-27,2026-03-27 03:15:11.716906,3.25,4,True
+PRV-5199,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2026-01-15,2026-01-15 02:44:52.856622,2.75,4,True
+PRV-5200,Provisioning,Sales,Active Directory,2025-12-14,2025-12-14 07:56:39.877355,7.94,8,True
+PRV-5201,Provisioning,Sales,Hybrid (AD + Entra ID),2026-03-06,2026-03-06 09:49:46.192433,9.83,8,False
+PRV-5202,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-01-03,2026-01-03 02:24:40.141717,2.41,4,True
+PRV-5203,Deprovisioning,Engineering,Microsoft Entra ID,2025-07-21,2025-07-21 01:45:48.786775,1.76,4,True
+PRV-5204,Deprovisioning,Legal,Active Directory,2026-01-14,2026-01-14 00:12:00.000000,0.2,4,True
+PRV-5205,Provisioning,Operations,Active Directory,2025-11-05,2025-11-05 01:45:14.362414,1.75,8,True
+PRV-5206,Provisioning,Sales,Hybrid (AD + Entra ID),2025-09-02,2025-09-02 00:30:00.000000,0.5,8,True
+PRV-5207,Provisioning,Finance,Hybrid (AD + Entra ID),2025-08-29,2025-08-29 05:46:08.298735,5.77,8,True
+PRV-5208,Deprovisioning,Operations,Active Directory,2025-08-28,2025-08-28 06:23:09.594016,6.39,4,False
+PRV-5209,Provisioning,Legal,Microsoft Entra ID,2025-08-17,2025-08-17 01:20:00.773765,1.33,8,True
+PRV-5210,Provisioning,Finance,Active Directory,2026-02-01,2026-02-01 00:30:00.000000,0.5,8,True
+PRV-5211,Deprovisioning,Engineering,Microsoft Entra ID,2026-02-19,2026-02-19 06:47:02.847340,6.78,4,False
+PRV-5212,Provisioning,Finance,Microsoft Entra ID,2025-07-02,2025-07-02 06:28:12.983586,6.47,8,True
+PRV-5213,Provisioning,HR,Hybrid (AD + Entra ID),2026-03-30,2026-03-30 04:26:03.429450,4.43,8,True
+PRV-5214,Deprovisioning,Finance,Active Directory,2025-08-26,2025-08-26 01:57:42.790290,1.96,4,True
+PRV-5215,Deprovisioning,Engineering,Microsoft Entra ID,2026-03-28,2026-03-28 04:25:05.041993,4.42,4,False
+PRV-5216,Provisioning,Marketing,Active Directory,2025-11-02,2025-11-02 14:23:33.845308,14.39,8,False
+PRV-5217,Provisioning,Finance,Hybrid (AD + Entra ID),2026-01-17,2026-01-17 01:07:46.020958,1.13,8,True
+PRV-5218,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-03-28,2026-03-28 00:30:00.000000,0.5,8,True
+PRV-5219,Deprovisioning,Marketing,Microsoft Entra ID,2025-07-31,2025-07-31 00:37:44.309191,0.63,4,True
+PRV-5220,Deprovisioning,Operations,Microsoft Entra ID,2026-02-22,2026-02-22 00:12:00.000000,0.2,4,True
+PRV-5221,Provisioning,HR,Hybrid (AD + Entra ID),2025-11-12,2025-11-12 10:12:12.756969,10.2,8,False
+PRV-5222,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-10-20,2025-10-20 02:50:45.280637,2.85,8,True
+PRV-5223,Provisioning,Finance,Hybrid (AD + Entra ID),2026-05-27,2026-05-27 01:14:47.997588,1.25,8,True
+PRV-5224,Deprovisioning,Marketing,Active Directory,2025-10-23,2025-10-23 02:26:25.454965,2.44,4,True
+PRV-5225,Provisioning,Finance,Hybrid (AD + Entra ID),2026-06-01,2026-06-01 16:46:34.160095,16.78,8,False
+PRV-5226,Deprovisioning,Legal,Hybrid (AD + Entra ID),2025-12-20,2025-12-20 03:47:02.196372,3.78,4,True
+PRV-5227,Deprovisioning,Sales,Microsoft Entra ID,2026-06-21,2026-06-21 01:28:59.923693,1.48,4,True
+PRV-5228,Provisioning,Operations,Active Directory,2025-11-14,2025-11-14 03:27:42.203750,3.46,8,True
+PRV-5229,Deprovisioning,Engineering,Microsoft Entra ID,2025-10-14,2025-10-14 03:00:33.765598,3.01,4,True
+PRV-5230,Provisioning,Engineering,Microsoft Entra ID,2026-06-02,2026-06-02 00:30:00.000000,0.5,8,True
+PRV-5231,Provisioning,Operations,Microsoft Entra ID,2025-07-07,2025-07-07 00:30:00.000000,0.5,8,True
+PRV-5232,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-08-30,2025-08-30 02:28:14.859415,2.47,4,True
+PRV-5233,Provisioning,Marketing,Microsoft Entra ID,2025-09-18,2025-09-18 00:30:00.000000,0.5,8,True
+PRV-5234,Deprovisioning,Legal,Microsoft Entra ID,2025-12-23,2025-12-23 04:59:10.636611,4.99,4,False
+PRV-5235,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-04-01,2026-04-01 00:24:46.411887,0.41,4,True
+PRV-5236,Provisioning,HR,Microsoft Entra ID,2025-08-19,2025-08-19 03:56:01.773191,3.93,8,True
+PRV-5237,Provisioning,HR,Microsoft Entra ID,2026-02-20,2026-02-20 00:58:39.149985,0.98,8,True
+PRV-5238,Provisioning,Sales,Microsoft Entra ID,2025-08-26,2025-08-26 03:38:11.157196,3.64,8,True
+PRV-5239,Provisioning,Operations,Hybrid (AD + Entra ID),2026-03-14,2026-03-14 06:58:29.860612,6.97,8,True
+PRV-5240,Deprovisioning,HR,Active Directory,2025-09-05,2025-09-05 00:36:07.115259,0.6,4,True
+PRV-5241,Deprovisioning,HR,Microsoft Entra ID,2026-05-21,2026-05-21 00:37:29.362388,0.62,4,True
+PRV-5242,Provisioning,HR,Microsoft Entra ID,2026-03-17,2026-03-17 02:59:45.220458,3.0,8,True
+PRV-5243,Deprovisioning,Finance,Microsoft Entra ID,2025-12-31,2025-12-31 03:38:31.149051,3.64,4,True
+PRV-5244,Provisioning,Engineering,Microsoft Entra ID,2025-08-28,2025-08-28 00:30:00.000000,0.5,8,True
+PRV-5245,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-09-27,2025-09-27 00:59:01.867067,0.98,4,True
+PRV-5246,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2026-02-26,2026-02-26 00:25:56.324781,0.43,4,True
+PRV-5247,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-06-06,2026-06-06 04:17:20.187356,4.29,4,False
+PRV-5248,Provisioning,Sales,Microsoft Entra ID,2026-01-29,2026-01-29 08:55:30.728319,8.93,8,False
+PRV-5249,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-07-29,2025-07-29 20:27:00.649055,20.45,4,False
+PRV-5250,Deprovisioning,Marketing,Microsoft Entra ID,2025-11-24,2025-11-24 16:47:44.438438,16.8,4,False
+PRV-5251,Deprovisioning,Finance,Microsoft Entra ID,2025-11-19,2025-11-19 06:57:05.318008,6.95,4,False
+PRV-5252,Deprovisioning,Legal,Microsoft Entra ID,2025-08-24,2025-08-24 05:22:09.825788,5.37,4,False
+PRV-5253,Deprovisioning,Legal,Microsoft Entra ID,2026-01-14,2026-01-14 01:06:23.554147,1.11,4,True
+PRV-5254,Provisioning,Sales,Microsoft Entra ID,2026-01-21,2026-01-21 07:41:34.529650,7.69,8,True
+PRV-5255,Provisioning,Sales,Hybrid (AD + Entra ID),2026-01-03,2026-01-03 01:40:48.292355,1.68,8,True
+PRV-5256,Provisioning,Finance,Hybrid (AD + Entra ID),2025-10-17,2025-10-17 02:04:03.676700,2.07,8,True
+PRV-5257,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-10-28,2025-10-28 02:44:36.450481,2.74,4,True
+PRV-5258,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-01-05,2026-01-05 00:33:35.732071,0.56,4,True
+PRV-5259,Provisioning,Finance,Active Directory,2026-03-20,2026-03-20 02:48:05.952839,2.8,8,True
+PRV-5260,Deprovisioning,Finance,Microsoft Entra ID,2025-11-09,2025-11-09 05:22:02.544741,5.37,4,False
+PRV-5261,Deprovisioning,HR,Microsoft Entra ID,2025-10-30,2025-10-30 08:46:38.726745,8.78,4,False
+PRV-5262,Deprovisioning,HR,Active Directory,2025-12-08,2025-12-08 07:59:49.443784,8.0,4,False
+PRV-5263,Provisioning,Legal,Microsoft Entra ID,2026-03-05,2026-03-05 00:30:00.000000,0.5,8,True
+PRV-5264,Provisioning,Sales,Hybrid (AD + Entra ID),2025-08-11,2025-08-11 01:05:36.950525,1.09,8,True
+PRV-5265,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-02-03,2026-02-03 02:49:09.604521,2.82,8,True
+PRV-5266,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-02-11,2026-02-11 02:38:28.123455,2.64,4,True
+PRV-5267,Provisioning,Finance,Active Directory,2025-11-04,2025-11-04 01:56:20.678211,1.94,8,True
+PRV-5268,Provisioning,HR,Hybrid (AD + Entra ID),2025-09-23,2025-09-23 06:13:27.690254,6.22,8,True
+PRV-5269,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-04-07,2026-04-07 00:38:20.791854,0.64,4,True
+PRV-5270,Provisioning,Marketing,Microsoft Entra ID,2026-02-18,2026-02-18 00:43:48.247995,0.73,8,True
+PRV-5271,Provisioning,Engineering,Active Directory,2026-01-12,2026-01-12 07:04:46.038307,7.08,8,True
+PRV-5272,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-02-13,2026-02-13 05:48:18.984362,5.81,4,False
+PRV-5273,Provisioning,Sales,Hybrid (AD + Entra ID),2025-12-20,2025-12-20 01:03:40.703973,1.06,8,True
+PRV-5274,Provisioning,Finance,Microsoft Entra ID,2025-08-06,2025-08-06 00:30:00.000000,0.5,8,True
+PRV-5275,Provisioning,Finance,Hybrid (AD + Entra ID),2025-07-11,2025-07-11 10:05:47.279342,10.1,8,False
+PRV-5276,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-07-19,2025-07-19 12:05:46.422393,12.1,8,False
+PRV-5277,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-05-16,2026-05-16 00:44:18.860750,0.74,8,True
+PRV-5278,Provisioning,Engineering,Microsoft Entra ID,2025-08-28,2025-08-28 04:53:23.494665,4.89,8,True
+PRV-5279,Provisioning,Finance,Microsoft Entra ID,2026-04-09,2026-04-09 03:03:32.549237,3.06,8,True
+PRV-5280,Provisioning,Finance,Microsoft Entra ID,2025-11-02,2025-11-02 02:57:05.133642,2.95,8,True
+PRV-5281,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-07-05,2025-07-05 03:52:19.203024,3.87,4,True
+PRV-5282,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-11-13,2025-11-13 00:12:00.000000,0.2,4,True
+PRV-5283,Provisioning,Legal,Hybrid (AD + Entra ID),2026-06-03,2026-06-03 06:10:37.051748,6.18,8,True
+PRV-5284,Provisioning,Legal,Microsoft Entra ID,2026-02-16,2026-02-16 00:49:57.161465,0.83,8,True
+PRV-5285,Provisioning,Finance,Hybrid (AD + Entra ID),2026-02-20,2026-02-20 01:24:10.441934,1.4,8,True
+PRV-5286,Provisioning,HR,Hybrid (AD + Entra ID),2026-05-04,2026-05-04 04:04:13.644562,4.07,8,True
+PRV-5287,Deprovisioning,Operations,Active Directory,2026-06-10,2026-06-10 00:37:48.991222,0.63,4,True
+PRV-5288,Deprovisioning,Sales,Microsoft Entra ID,2025-08-02,2025-08-02 02:09:40.144450,2.16,4,True
+PRV-5289,Provisioning,Legal,Microsoft Entra ID,2026-01-26,2026-01-26 09:15:27.809485,9.26,8,False
+PRV-5290,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-08-25,2025-08-25 01:34:32.216102,1.58,8,True
+PRV-5291,Deprovisioning,Operations,Active Directory,2025-10-02,2025-10-02 00:19:52.365362,0.33,4,True
+PRV-5292,Provisioning,Sales,Microsoft Entra ID,2026-05-29,2026-05-29 01:37:04.812135,1.62,8,True
+PRV-5293,Provisioning,Legal,Active Directory,2025-09-24,2025-09-24 04:40:25.297363,4.67,8,True
+PRV-5294,Provisioning,Sales,Active Directory,2026-03-15,2026-03-15 06:02:18.484579,6.04,8,True
+PRV-5295,Provisioning,Finance,Hybrid (AD + Entra ID),2026-05-29,2026-05-29 06:40:59.952027,6.68,8,True
+PRV-5296,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-10-03,2025-10-03 01:56:40.110254,1.94,4,True
+PRV-5297,Deprovisioning,Marketing,Microsoft Entra ID,2025-09-07,2025-09-07 01:03:56.867184,1.07,4,True
+PRV-5298,Provisioning,Sales,Hybrid (AD + Entra ID),2026-01-24,2026-01-24 05:11:08.761356,5.19,8,True
+PRV-5299,Provisioning,Legal,Hybrid (AD + Entra ID),2025-09-15,2025-09-15 00:46:03.365588,0.77,8,True
+PRV-5300,Provisioning,Finance,Hybrid (AD + Entra ID),2025-12-01,2025-12-01 10:53:19.631963,10.89,8,False
+PRV-5301,Provisioning,HR,Hybrid (AD + Entra ID),2025-11-08,2025-11-08 00:45:25.651974,0.76,8,True
+PRV-5302,Provisioning,Sales,Hybrid (AD + Entra ID),2026-06-14,2026-06-14 02:45:59.531628,2.77,8,True
+PRV-5303,Provisioning,Sales,Hybrid (AD + Entra ID),2026-04-22,2026-04-22 07:16:36.196213,7.28,8,True
+PRV-5304,Provisioning,Legal,Active Directory,2026-03-16,2026-03-16 03:35:44.226520,3.6,8,True
+PRV-5305,Provisioning,HR,Microsoft Entra ID,2026-06-30,2026-06-30 04:40:43.414425,4.68,8,True
+PRV-5306,Deprovisioning,Engineering,Microsoft Entra ID,2025-07-05,2025-07-05 04:10:06.171155,4.17,4,False
+PRV-5307,Deprovisioning,HR,Microsoft Entra ID,2026-06-04,2026-06-04 02:25:24.702369,2.42,4,True
+PRV-5308,Provisioning,Marketing,Microsoft Entra ID,2025-07-09,2025-07-09 00:30:00.000000,0.5,8,True
+PRV-5309,Provisioning,Operations,Active Directory,2026-05-26,2026-05-26 00:30:00.000000,0.5,8,True
+PRV-5310,Deprovisioning,Engineering,Microsoft Entra ID,2026-06-30,2026-06-30 03:03:47.091625,3.06,4,True
+PRV-5311,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-04-22,2026-04-22 00:20:54.152467,0.35,4,True
+PRV-5312,Provisioning,Legal,Microsoft Entra ID,2025-12-30,2025-12-30 02:12:38.048003,2.21,8,True
+PRV-5313,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-09-24,2025-09-24 00:27:23.038427,0.46,4,True
+PRV-5314,Provisioning,Sales,Active Directory,2026-05-22,2026-05-22 03:19:09.236775,3.32,8,True
+PRV-5315,Deprovisioning,HR,Active Directory,2026-03-27,2026-03-27 00:31:55.409114,0.53,4,True
+PRV-5316,Deprovisioning,Sales,Microsoft Entra ID,2025-10-28,2025-10-28 13:44:15.045582,13.74,4,False
+PRV-5317,Provisioning,Finance,Active Directory,2026-01-05,2026-01-05 01:26:30.537467,1.44,8,True
+PRV-5318,Provisioning,HR,Microsoft Entra ID,2025-12-11,2025-12-11 00:32:55.414438,0.55,8,True
+PRV-5319,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-12-21,2025-12-21 00:54:41.675981,0.91,4,True
+PRV-5320,Deprovisioning,Operations,Microsoft Entra ID,2025-09-18,2025-09-18 02:51:16.403936,2.85,4,True
+PRV-5321,Deprovisioning,Sales,Microsoft Entra ID,2025-08-26,2025-08-26 12:09:00.804422,12.15,4,False
+PRV-5322,Provisioning,Marketing,Microsoft Entra ID,2026-03-26,2026-03-26 05:04:40.538272,5.08,8,True
+PRV-5323,Deprovisioning,Sales,Active Directory,2026-04-11,2026-04-11 01:10:35.875348,1.18,4,True
+PRV-5324,Deprovisioning,Engineering,Microsoft Entra ID,2025-10-09,2025-10-09 04:52:41.867095,4.88,4,False
+PRV-5325,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-01-14,2026-01-14 00:12:00.000000,0.2,4,True
+PRV-5326,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-07,2025-07-07 02:41:14.049105,2.69,8,True
+PRV-5327,Provisioning,Engineering,Microsoft Entra ID,2025-07-21,2025-07-21 03:29:00.944772,3.48,8,True
+PRV-5328,Deprovisioning,HR,Active Directory,2026-02-19,2026-02-19 03:10:08.166629,3.17,4,True
+PRV-5329,Provisioning,Marketing,Microsoft Entra ID,2026-05-09,2026-05-09 01:03:50.767534,1.06,8,True
+PRV-5330,Deprovisioning,HR,Microsoft Entra ID,2026-02-19,2026-02-19 01:08:09.451274,1.14,4,True
+PRV-5331,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-06-13,2026-06-13 05:47:02.953192,5.78,4,False
+PRV-5332,Provisioning,HR,Microsoft Entra ID,2026-02-16,2026-02-16 00:30:00.000000,0.5,8,True
+PRV-5333,Provisioning,HR,Hybrid (AD + Entra ID),2025-07-31,2025-07-31 02:54:08.043225,2.9,8,True
+PRV-5334,Deprovisioning,Sales,Microsoft Entra ID,2026-02-20,2026-02-20 02:30:34.954453,2.51,4,True
+PRV-5335,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-06-27,2026-06-27 03:15:15.572448,3.25,8,True
+PRV-5336,Deprovisioning,HR,Active Directory,2026-05-13,2026-05-13 01:43:21.652451,1.72,4,True
+PRV-5337,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-10-22,2025-10-22 06:43:11.204359,6.72,8,True
+PRV-5338,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-07-01,2025-07-01 00:55:48.348624,0.93,8,True
+PRV-5339,Provisioning,Engineering,Microsoft Entra ID,2026-01-22,2026-01-22 02:07:05.980563,2.12,8,True
+PRV-5340,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-10-19,2025-10-19 07:23:32.017257,7.39,8,True
+PRV-5341,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-04-27,2026-04-27 00:30:00.000000,0.5,8,True
+PRV-5342,Provisioning,Engineering,Active Directory,2025-08-29,2025-08-29 01:24:09.012920,1.4,8,True
+PRV-5343,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-12-30,2025-12-30 00:47:21.673056,0.79,4,True
+PRV-5344,Provisioning,Operations,Microsoft Entra ID,2026-02-08,2026-02-08 00:52:59.659740,0.88,8,True
+PRV-5345,Provisioning,Sales,Microsoft Entra ID,2026-02-05,2026-02-05 14:28:09.012145,14.47,8,False
+PRV-5346,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-11-12,2025-11-12 02:44:47.962014,2.75,4,True
+PRV-5347,Provisioning,Operations,Hybrid (AD + Entra ID),2026-01-10,2026-01-10 08:11:59.954011,8.2,8,False
+PRV-5348,Provisioning,Marketing,Active Directory,2025-07-04,2025-07-04 01:58:05.616261,1.97,8,True
+PRV-5349,Provisioning,Engineering,Active Directory,2025-07-17,2025-07-17 02:52:28.374418,2.87,8,True
+PRV-5350,Deprovisioning,Legal,Microsoft Entra ID,2026-01-23,2026-01-23 01:30:10.944032,1.5,4,True
+PRV-5351,Deprovisioning,Legal,Active Directory,2026-02-26,2026-02-26 02:06:03.379776,2.1,4,True
+PRV-5352,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-08-04,2025-08-04 05:40:00.524516,5.67,4,False
+PRV-5353,Provisioning,Sales,Microsoft Entra ID,2025-07-21,2025-07-21 08:38:55.483720,8.65,8,False
+PRV-5354,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-05-29,2026-05-29 01:57:14.297461,1.95,4,True
+PRV-5355,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-01-31,2026-01-31 00:30:00.000000,0.5,8,True
+PRV-5356,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-07-15,2025-07-15 00:12:00.000000,0.2,4,True
+PRV-5357,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-07-26,2025-07-26 00:23:16.135271,0.39,4,True
+PRV-5358,Provisioning,Marketing,Active Directory,2026-05-23,2026-05-23 04:58:48.645166,4.98,8,True
+PRV-5359,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-08-05,2025-08-05 03:00:39.515702,3.01,4,True
+PRV-5360,Deprovisioning,Legal,Microsoft Entra ID,2025-11-19,2025-11-19 03:54:28.377511,3.91,4,True
+PRV-5361,Provisioning,Legal,Microsoft Entra ID,2025-12-08,2025-12-08 00:31:11.748161,0.52,8,True
+PRV-5362,Deprovisioning,Legal,Microsoft Entra ID,2026-01-23,2026-01-23 01:56:06.444839,1.94,4,True
+PRV-5363,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-02-21,2026-02-21 10:24:12.934372,10.4,4,False
+PRV-5364,Deprovisioning,Engineering,Active Directory,2025-12-04,2025-12-04 01:16:21.743985,1.27,4,True
+PRV-5365,Deprovisioning,Legal,Hybrid (AD + Entra ID),2025-08-07,2025-08-07 06:43:35.631983,6.73,4,False
+PRV-5366,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-05-23,2026-05-23 00:29:19.151893,0.49,4,True
+PRV-5367,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-07-24,2025-07-24 00:24:51.362134,0.41,4,True
+PRV-5368,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-08-24,2025-08-24 01:17:08.731894,1.29,8,True
+PRV-5369,Deprovisioning,Engineering,Microsoft Entra ID,2026-04-19,2026-04-19 12:09:46.459151,12.16,4,False
+PRV-5370,Provisioning,Operations,Microsoft Entra ID,2025-10-30,2025-10-30 02:54:17.028501,2.9,8,True
+PRV-5371,Provisioning,Legal,Hybrid (AD + Entra ID),2026-04-23,2026-04-23 05:15:45.636107,5.26,8,True
+PRV-5372,Deprovisioning,HR,Microsoft Entra ID,2025-09-29,2025-09-29 01:46:42.065726,1.78,4,True
+PRV-5373,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-06-14,2026-06-14 02:24:54.506181,2.42,8,True
+PRV-5374,Provisioning,Sales,Microsoft Entra ID,2025-11-26,2025-11-26 01:16:51.189466,1.28,8,True
+PRV-5375,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-06-01,2026-06-01 00:54:05.375750,0.9,4,True
+PRV-5376,Provisioning,Engineering,Active Directory,2025-12-05,2025-12-05 01:26:48.221888,1.45,8,True
+PRV-5377,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-03-06,2026-03-06 01:33:20.852573,1.56,4,True
+PRV-5378,Provisioning,Sales,Hybrid (AD + Entra ID),2025-09-26,2025-09-26 04:29:00.678677,4.48,8,True
+PRV-5379,Provisioning,HR,Hybrid (AD + Entra ID),2025-11-18,2025-11-18 02:02:07.633368,2.04,8,True
+PRV-5380,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-07-31,2025-07-31 00:57:08.543874,0.95,4,True
+PRV-5381,Provisioning,Sales,Microsoft Entra ID,2025-11-08,2025-11-08 01:38:26.417656,1.64,8,True
+PRV-5382,Provisioning,Operations,Hybrid (AD + Entra ID),2025-12-09,2025-12-09 06:59:59.280675,7.0,8,True
+PRV-5383,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-06-29,2026-06-29 03:05:00.326857,3.08,4,True
+PRV-5384,Deprovisioning,Sales,Microsoft Entra ID,2025-07-21,2025-07-21 00:18:45.524136,0.31,4,True
+PRV-5385,Deprovisioning,Finance,Microsoft Entra ID,2025-07-12,2025-07-12 00:12:00.000000,0.2,4,True
+PRV-5386,Provisioning,Finance,Active Directory,2026-03-28,2026-03-28 00:30:00.000000,0.5,8,True
+PRV-5387,Deprovisioning,HR,Active Directory,2025-08-04,2025-08-04 01:54:49.513608,1.91,4,True
+PRV-5388,Provisioning,Legal,Hybrid (AD + Entra ID),2025-07-25,2025-07-25 04:53:42.370707,4.9,8,True
+PRV-5389,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-07-01,2025-07-01 01:19:52.303786,1.33,4,True
+PRV-5390,Provisioning,HR,Microsoft Entra ID,2026-04-21,2026-04-21 03:59:46.473936,4.0,8,True
+PRV-5391,Provisioning,Finance,Active Directory,2025-07-21,2025-07-21 13:29:05.937916,13.48,8,False
+PRV-5392,Provisioning,Sales,Active Directory,2025-07-16,2025-07-16 02:23:05.920464,2.38,8,True
+PRV-5393,Provisioning,Legal,Hybrid (AD + Entra ID),2026-04-08,2026-04-08 00:30:00.000000,0.5,8,True
+PRV-5394,Provisioning,Sales,Microsoft Entra ID,2026-06-19,2026-06-19 05:14:36.617740,5.24,8,True
+PRV-5395,Provisioning,HR,Active Directory,2026-01-31,2026-01-31 01:47:39.541970,1.79,8,True
+PRV-5396,Provisioning,Finance,Microsoft Entra ID,2026-04-18,2026-04-18 04:19:25.699363,4.32,8,True
+PRV-5397,Deprovisioning,Marketing,Microsoft Entra ID,2026-06-01,2026-06-01 06:28:07.833644,6.47,4,False
+PRV-5398,Provisioning,Engineering,Microsoft Entra ID,2026-02-06,2026-02-06 14:55:54.777211,14.93,8,False
+PRV-5399,Deprovisioning,Marketing,Active Directory,2025-09-12,2025-09-12 00:38:09.821169,0.64,4,True
+PRV-5400,Provisioning,Finance,Active Directory,2026-03-07,2026-03-07 05:45:31.180804,5.76,8,True
+PRV-5401,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-10-23,2025-10-23 01:40:31.445282,1.68,4,True
+PRV-5402,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-07-14,2025-07-14 00:24:07.593300,0.4,4,True
+PRV-5403,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-04-04,2026-04-04 01:12:21.551652,1.21,4,True
+PRV-5404,Provisioning,Sales,Hybrid (AD + Entra ID),2026-05-06,2026-05-06 03:01:07.236753,3.02,8,True
+PRV-5405,Deprovisioning,Finance,Microsoft Entra ID,2025-08-08,2025-08-08 03:11:31.633783,3.19,4,True
+PRV-5406,Provisioning,Operations,Active Directory,2025-10-31,2025-10-31 10:50:56.973742,10.85,8,False
+PRV-5407,Provisioning,Operations,Microsoft Entra ID,2026-01-20,2026-01-20 03:45:06.518148,3.75,8,True
+PRV-5408,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-06-07,2026-06-07 00:12:00.000000,0.2,4,True
+PRV-5409,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-11-15,2025-11-15 06:14:50.093532,6.25,4,False
+PRV-5410,Deprovisioning,Operations,Active Directory,2025-11-11,2025-11-11 02:24:11.309984,2.4,4,True
+PRV-5411,Provisioning,Finance,Active Directory,2026-01-03,2026-01-03 01:32:53.362644,1.55,8,True
+PRV-5412,Deprovisioning,Engineering,Active Directory,2025-11-09,2025-11-09 00:19:35.720868,0.33,4,True
+PRV-5413,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-09-08,2025-09-08 01:32:38.300127,1.54,4,True
+PRV-5414,Provisioning,Finance,Microsoft Entra ID,2025-10-03,2025-10-03 05:07:12.738684,5.12,8,True
+PRV-5415,Provisioning,Marketing,Microsoft Entra ID,2025-12-30,2025-12-30 06:33:12.622871,6.55,8,True
+PRV-5416,Provisioning,Sales,Microsoft Entra ID,2025-09-06,2025-09-06 04:12:33.128761,4.21,8,True
+PRV-5417,Provisioning,Finance,Hybrid (AD + Entra ID),2025-11-11,2025-11-11 16:09:26.205779,16.16,8,False
+PRV-5418,Provisioning,Finance,Active Directory,2026-04-07,2026-04-07 08:06:31.766823,8.11,8,False
+PRV-5419,Provisioning,Legal,Active Directory,2026-05-08,2026-05-08 18:50:09.530284,18.84,8,False
+PRV-5420,Provisioning,Marketing,Microsoft Entra ID,2025-07-10,2025-07-10 00:30:00.000000,0.5,8,True
+PRV-5421,Provisioning,Operations,Microsoft Entra ID,2026-02-03,2026-02-03 01:53:52.635695,1.9,8,True
+PRV-5422,Deprovisioning,Engineering,Microsoft Entra ID,2026-03-24,2026-03-24 03:27:07.820311,3.45,4,True
+PRV-5423,Deprovisioning,Sales,Microsoft Entra ID,2025-07-13,2025-07-13 01:33:49.990332,1.56,4,True
+PRV-5424,Provisioning,Legal,Active Directory,2026-05-15,2026-05-15 02:31:16.887861,2.52,8,True
+PRV-5425,Provisioning,Operations,Microsoft Entra ID,2026-05-08,2026-05-08 10:26:40.130339,10.44,8,False
+PRV-5426,Provisioning,Engineering,Microsoft Entra ID,2026-01-28,2026-01-28 00:30:00.000000,0.5,8,True
+PRV-5427,Provisioning,Operations,Active Directory,2026-04-24,2026-04-24 10:33:54.301648,10.57,8,False
+PRV-5428,Provisioning,Sales,Microsoft Entra ID,2025-08-04,2025-08-04 01:40:24.184069,1.67,8,True
+PRV-5429,Provisioning,Engineering,Microsoft Entra ID,2026-03-08,2026-03-08 05:43:58.272635,5.73,8,True
+PRV-5430,Provisioning,Operations,Microsoft Entra ID,2025-11-26,2025-11-26 02:59:33.376048,2.99,8,True
+PRV-5431,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-04-14,2026-04-14 01:10:05.211756,1.17,8,True
+PRV-5432,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-03-31,2026-03-31 00:12:00.000000,0.2,4,True
+PRV-5433,Provisioning,Operations,Microsoft Entra ID,2026-05-14,2026-05-14 01:37:10.425268,1.62,8,True
+PRV-5434,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-04-17,2026-04-17 04:47:43.904808,4.8,4,False
+PRV-5435,Deprovisioning,Sales,Active Directory,2026-03-01,2026-03-01 00:51:06.794898,0.85,4,True
+PRV-5436,Provisioning,Operations,Active Directory,2025-11-12,2025-11-12 03:48:16.727616,3.8,8,True
+PRV-5437,Provisioning,Legal,Hybrid (AD + Entra ID),2025-08-27,2025-08-27 09:16:15.683271,9.27,8,False
+PRV-5438,Provisioning,Operations,Hybrid (AD + Entra ID),2025-12-14,2025-12-14 03:42:48.495906,3.71,8,True
+PRV-5439,Deprovisioning,Engineering,Active Directory,2025-12-29,2025-12-29 05:04:12.426670,5.07,4,False
+PRV-5440,Deprovisioning,Sales,Microsoft Entra ID,2026-05-25,2026-05-25 03:08:34.307465,3.14,4,True
+PRV-5441,Provisioning,Sales,Microsoft Entra ID,2025-11-14,2025-11-14 03:45:14.848223,3.75,8,True
+PRV-5442,Deprovisioning,Marketing,Microsoft Entra ID,2025-11-21,2025-11-21 03:51:01.665253,3.85,4,True
+PRV-5443,Deprovisioning,Sales,Active Directory,2026-01-20,2026-01-20 07:00:30.458180,7.01,4,False
+PRV-5444,Provisioning,HR,Active Directory,2025-07-20,2025-07-20 04:43:34.900498,4.73,8,True
+PRV-5445,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-03-09,2026-03-09 07:21:59.338001,7.37,8,True
+PRV-5446,Deprovisioning,Legal,Microsoft Entra ID,2025-12-25,2025-12-25 05:17:24.163461,5.29,4,False
+PRV-5447,Provisioning,HR,Microsoft Entra ID,2026-06-07,2026-06-07 00:58:03.163636,0.97,8,True
+PRV-5448,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-02-28,2026-02-28 01:14:10.778560,1.24,4,True
+PRV-5449,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-09-20,2025-09-20 03:03:52.525106,3.06,4,True
+PRV-5450,Provisioning,Finance,Hybrid (AD + Entra ID),2026-06-08,2026-06-08 01:55:16.625612,1.92,8,True
+PRV-5451,Deprovisioning,Finance,Hybrid (AD + Entra ID),2026-06-12,2026-06-12 00:20:02.851746,0.33,4,True
+PRV-5452,Provisioning,Operations,Active Directory,2025-10-02,2025-10-02 00:56:51.314873,0.95,8,True
+PRV-5453,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-06-21,2026-06-21 07:01:05.892232,7.02,4,False
+PRV-5454,Deprovisioning,Sales,Microsoft Entra ID,2026-03-02,2026-03-02 01:41:45.140496,1.7,4,True
+PRV-5455,Provisioning,Finance,Microsoft Entra ID,2025-07-17,2025-07-17 02:29:03.097606,2.48,8,True
+PRV-5456,Provisioning,Legal,Active Directory,2025-12-20,2025-12-20 00:47:34.143363,0.79,8,True
+PRV-5457,Deprovisioning,Legal,Active Directory,2025-08-16,2025-08-16 03:56:29.755037,3.94,4,True
+PRV-5458,Provisioning,Finance,Microsoft Entra ID,2026-03-29,2026-03-29 00:30:00.000000,0.5,8,True
+PRV-5459,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-11-05,2025-11-05 01:08:41.648917,1.14,4,True
+PRV-5460,Provisioning,Finance,Microsoft Entra ID,2025-08-28,2025-08-28 00:41:25.616189,0.69,8,True
+PRV-5461,Provisioning,HR,Microsoft Entra ID,2026-01-29,2026-01-29 04:52:06.288789,4.87,8,True
+PRV-5462,Deprovisioning,Finance,Microsoft Entra ID,2025-09-09,2025-09-09 00:21:36.245687,0.36,4,True
+PRV-5463,Deprovisioning,Engineering,Microsoft Entra ID,2026-01-01,2026-01-01 04:04:56.631581,4.08,4,False
+PRV-5464,Provisioning,Engineering,Active Directory,2025-11-16,2025-11-16 01:01:44.623462,1.03,8,True
+PRV-5465,Provisioning,Engineering,Active Directory,2025-09-15,2025-09-15 00:44:54.903819,0.75,8,True
+PRV-5466,Deprovisioning,HR,Microsoft Entra ID,2025-09-30,2025-09-30 03:20:00.645296,3.33,4,True
+PRV-5467,Deprovisioning,Operations,Active Directory,2025-12-26,2025-12-26 09:23:15.049318,9.39,4,False
+PRV-5468,Deprovisioning,Engineering,Microsoft Entra ID,2026-02-13,2026-02-13 00:34:45.475674,0.58,4,True
+PRV-5469,Provisioning,Legal,Microsoft Entra ID,2026-02-06,2026-02-06 07:49:05.680119,7.82,8,True
+PRV-5470,Provisioning,Marketing,Microsoft Entra ID,2025-08-14,2025-08-14 07:29:26.451466,7.49,8,True
+PRV-5471,Provisioning,Legal,Active Directory,2025-08-06,2025-08-06 01:06:20.457931,1.11,8,True
+PRV-5472,Provisioning,Legal,Hybrid (AD + Entra ID),2026-01-12,2026-01-12 15:46:47.580262,15.78,8,False
+PRV-5473,Deprovisioning,HR,Microsoft Entra ID,2025-09-28,2025-09-28 00:12:00.000000,0.2,4,True
+PRV-5474,Provisioning,HR,Microsoft Entra ID,2025-11-08,2025-11-08 01:54:03.681025,1.9,8,True
+PRV-5475,Provisioning,Sales,Microsoft Entra ID,2025-10-19,2025-10-19 02:10:21.440245,2.17,8,True
+PRV-5476,Provisioning,Finance,Active Directory,2025-07-05,2025-07-05 00:30:00.000000,0.5,8,True
+PRV-5477,Deprovisioning,HR,Active Directory,2025-07-08,2025-07-08 00:55:43.475305,0.93,4,True
+PRV-5478,Provisioning,HR,Microsoft Entra ID,2025-11-05,2025-11-05 05:12:12.589533,5.2,8,True
+PRV-5479,Provisioning,HR,Microsoft Entra ID,2026-03-02,2026-03-02 00:30:00.000000,0.5,8,True
+PRV-5480,Provisioning,Marketing,Active Directory,2026-02-10,2026-02-10 03:19:49.086186,3.33,8,True
+PRV-5481,Provisioning,Legal,Hybrid (AD + Entra ID),2026-01-23,2026-01-23 00:30:00.000000,0.5,8,True
+PRV-5482,Deprovisioning,Sales,Microsoft Entra ID,2025-08-25,2025-08-25 04:01:44.696015,4.03,4,False
+PRV-5483,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-07-08,2025-07-08 04:04:29.483963,4.07,4,False
+PRV-5484,Provisioning,Marketing,Active Directory,2026-03-27,2026-03-27 21:42:30.328555,21.71,8,False
+PRV-5485,Provisioning,Marketing,Active Directory,2025-12-22,2025-12-22 01:23:52.221138,1.4,8,True
+PRV-5486,Provisioning,Operations,Hybrid (AD + Entra ID),2026-03-29,2026-03-29 02:20:42.248863,2.35,8,True
+PRV-5487,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-02-03,2026-02-03 02:13:04.911246,2.22,4,True
+PRV-5488,Deprovisioning,Finance,Microsoft Entra ID,2026-04-27,2026-04-27 00:51:17.234622,0.85,4,True
+PRV-5489,Provisioning,Legal,Hybrid (AD + Entra ID),2026-06-12,2026-06-12 05:48:20.494458,5.81,8,True
+PRV-5490,Provisioning,Operations,Active Directory,2025-09-14,2025-09-14 00:30:00.000000,0.5,8,True
+PRV-5491,Provisioning,Sales,Hybrid (AD + Entra ID),2025-12-02,2025-12-02 01:21:22.256641,1.36,8,True
+PRV-5492,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-03-16,2026-03-16 01:39:27.038846,1.66,4,True
+PRV-5493,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2026-03-03,2026-03-03 00:29:58.042385,0.5,4,True
+PRV-5494,Provisioning,Operations,Hybrid (AD + Entra ID),2025-08-29,2025-08-29 09:54:18.146677,9.91,8,False
+PRV-5495,Deprovisioning,Sales,Active Directory,2025-11-16,2025-11-16 03:44:26.360182,3.74,4,True
+PRV-5496,Provisioning,Engineering,Microsoft Entra ID,2025-08-26,2025-08-26 02:38:30.783000,2.64,8,True
+PRV-5497,Deprovisioning,Legal,Active Directory,2025-12-26,2025-12-26 02:00:53.798575,2.01,4,True
+PRV-5498,Provisioning,Finance,Microsoft Entra ID,2025-07-26,2025-07-26 02:40:28.038818,2.67,8,True
+PRV-5499,Provisioning,Legal,Active Directory,2025-11-26,2025-11-26 04:01:59.348991,4.03,8,True
+PRV-5500,Provisioning,Finance,Active Directory,2025-08-12,2025-08-12 06:11:32.672283,6.19,8,True
+PRV-5501,Provisioning,Sales,Hybrid (AD + Entra ID),2026-05-20,2026-05-20 12:28:56.876681,12.48,8,False
+PRV-5502,Deprovisioning,Engineering,Microsoft Entra ID,2026-01-13,2026-01-13 00:24:33.986940,0.41,4,True
+PRV-5503,Provisioning,Legal,Microsoft Entra ID,2025-08-21,2025-08-21 06:29:21.746461,6.49,8,True
+PRV-5504,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-11-20,2025-11-20 12:50:17.852275,12.84,8,False
+PRV-5505,Provisioning,Legal,Microsoft Entra ID,2025-07-14,2025-07-14 19:45:06.692483,19.75,8,False
+PRV-5506,Provisioning,HR,Hybrid (AD + Entra ID),2025-10-01,2025-10-01 04:21:51.823876,4.36,8,True
+PRV-5507,Deprovisioning,Engineering,Microsoft Entra ID,2025-10-28,2025-10-28 04:42:40.661305,4.71,4,False
+PRV-5508,Deprovisioning,Legal,Microsoft Entra ID,2026-01-13,2026-01-13 01:07:59.438060,1.13,4,True
+PRV-5509,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-03-12,2026-03-12 01:15:03.843185,1.25,8,True
+PRV-5510,Provisioning,Operations,Microsoft Entra ID,2026-03-02,2026-03-02 00:45:32.155426,0.76,8,True
+PRV-5511,Provisioning,Finance,Active Directory,2025-09-20,2025-09-20 05:51:04.817060,5.85,8,True
+PRV-5512,Provisioning,Sales,Hybrid (AD + Entra ID),2025-09-01,2025-09-01 00:35:36.645204,0.59,8,True
+PRV-5513,Provisioning,HR,Active Directory,2025-12-22,2025-12-22 01:28:56.681150,1.48,8,True
+PRV-5514,Provisioning,Operations,Microsoft Entra ID,2025-12-06,2025-12-06 04:15:43.575741,4.26,8,True
+PRV-5515,Provisioning,Finance,Hybrid (AD + Entra ID),2025-07-09,2025-07-09 01:49:40.486732,1.83,8,True
+PRV-5516,Provisioning,Sales,Hybrid (AD + Entra ID),2026-04-08,2026-04-08 07:53:59.329575,7.9,8,True
+PRV-5517,Provisioning,Sales,Hybrid (AD + Entra ID),2025-10-13,2025-10-13 02:40:40.876515,2.68,8,True
+PRV-5518,Provisioning,Sales,Active Directory,2026-05-05,2026-05-05 02:12:12.244712,2.2,8,True
+PRV-5519,Provisioning,Sales,Active Directory,2025-09-10,2025-09-10 15:52:51.532138,15.88,8,False
+PRV-5520,Provisioning,Engineering,Microsoft Entra ID,2026-03-10,2026-03-10 22:05:55.131087,22.1,8,False
+PRV-5521,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-11-23,2025-11-23 00:12:00.000000,0.2,4,True
+PRV-5522,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-02-16,2026-02-16 02:15:06.987300,2.25,8,True
+PRV-5523,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-12-13,2025-12-13 02:06:19.607637,2.11,8,True
+PRV-5524,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-06-04,2026-06-04 01:49:55.452765,1.83,4,True
+PRV-5525,Provisioning,Operations,Microsoft Entra ID,2026-04-06,2026-04-06 02:12:48.807888,2.21,8,True
+PRV-5526,Deprovisioning,Legal,Microsoft Entra ID,2025-10-06,2025-10-06 01:05:45.074990,1.1,4,True
+PRV-5527,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-11-26,2025-11-26 00:52:38.536623,0.88,8,True
+PRV-5528,Provisioning,Operations,Microsoft Entra ID,2026-02-11,2026-02-11 01:51:26.797280,1.86,8,True
+PRV-5529,Deprovisioning,Sales,Microsoft Entra ID,2025-11-21,2025-11-21 09:11:36.933073,9.19,4,False
+PRV-5530,Provisioning,Engineering,Microsoft Entra ID,2026-01-03,2026-01-03 09:09:47.641804,9.16,8,False
+PRV-5531,Deprovisioning,Legal,Microsoft Entra ID,2025-12-13,2025-12-13 00:33:54.513518,0.57,4,True
+PRV-5532,Deprovisioning,Legal,Microsoft Entra ID,2025-07-28,2025-07-28 00:44:58.331272,0.75,4,True
+PRV-5533,Provisioning,Legal,Active Directory,2025-11-12,2025-11-12 00:44:49.518916,0.75,8,True
+PRV-5534,Deprovisioning,Legal,Active Directory,2025-12-03,2025-12-03 01:31:36.082261,1.53,4,True
+PRV-5535,Deprovisioning,HR,Hybrid (AD + Entra ID),2026-05-02,2026-05-02 02:38:31.002510,2.64,4,True
+PRV-5536,Provisioning,HR,Active Directory,2025-08-08,2025-08-08 00:49:59.909774,0.83,8,True
+PRV-5537,Deprovisioning,Sales,Active Directory,2025-11-07,2025-11-07 00:12:00.000000,0.2,4,True
+PRV-5538,Provisioning,HR,Microsoft Entra ID,2026-02-21,2026-02-21 09:47:27.422265,9.79,8,False
+PRV-5539,Deprovisioning,Marketing,Active Directory,2026-03-23,2026-03-23 02:57:45.375437,2.96,4,True
+PRV-5540,Provisioning,Legal,Hybrid (AD + Entra ID),2025-12-12,2025-12-12 09:27:24.197191,9.46,8,False
+PRV-5541,Provisioning,HR,Hybrid (AD + Entra ID),2025-10-09,2025-10-09 06:33:32.301444,6.56,8,True
+PRV-5542,Deprovisioning,Legal,Microsoft Entra ID,2026-02-12,2026-02-12 06:35:52.450077,6.6,4,False
+PRV-5543,Deprovisioning,HR,Microsoft Entra ID,2025-12-12,2025-12-12 06:55:40.096738,6.93,4,False
+PRV-5544,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2026-04-13,2026-04-13 03:53:28.433106,3.89,4,True
+PRV-5545,Deprovisioning,Sales,Microsoft Entra ID,2025-10-29,2025-10-29 03:17:14.236712,3.29,4,True
+PRV-5546,Provisioning,HR,Microsoft Entra ID,2026-01-16,2026-01-16 06:34:04.449597,6.57,8,True
+PRV-5547,Deprovisioning,Engineering,Active Directory,2026-04-10,2026-04-10 01:46:57.349183,1.78,4,True
+PRV-5548,Deprovisioning,Marketing,Active Directory,2026-04-17,2026-04-17 01:37:39.969729,1.63,4,True
+PRV-5549,Deprovisioning,HR,Active Directory,2026-05-16,2026-05-16 02:52:58.035785,2.88,4,True
+PRV-5550,Provisioning,HR,Active Directory,2025-12-22,2025-12-22 04:55:20.538944,4.92,8,True
+PRV-5551,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-05-30,2026-05-30 07:08:14.717240,7.14,8,True
+PRV-5552,Provisioning,Marketing,Microsoft Entra ID,2025-10-28,2025-10-28 05:22:56.164397,5.38,8,True
+PRV-5553,Provisioning,Legal,Hybrid (AD + Entra ID),2025-07-21,2025-07-21 06:33:35.387785,6.56,8,True
+PRV-5554,Provisioning,Operations,Active Directory,2025-11-27,2025-11-27 00:30:00.000000,0.5,8,True
+PRV-5555,Provisioning,Legal,Microsoft Entra ID,2025-08-16,2025-08-16 01:10:33.541879,1.18,8,True
+PRV-5556,Provisioning,Operations,Microsoft Entra ID,2026-01-08,2026-01-08 11:48:19.963186,11.81,8,False
+PRV-5557,Provisioning,HR,Microsoft Entra ID,2025-12-21,2025-12-21 05:55:44.400998,5.93,8,True
+PRV-5558,Deprovisioning,Operations,Microsoft Entra ID,2025-10-24,2025-10-24 01:06:29.673057,1.11,4,True
+PRV-5559,Provisioning,Engineering,Active Directory,2026-04-05,2026-04-05 02:44:21.420756,2.74,8,True
+PRV-5560,Provisioning,Finance,Microsoft Entra ID,2026-01-02,2026-01-02 09:02:46.453814,9.05,8,False
+PRV-5561,Deprovisioning,Sales,Microsoft Entra ID,2026-03-13,2026-03-13 01:43:29.741225,1.72,4,True
+PRV-5562,Provisioning,Engineering,Microsoft Entra ID,2025-08-27,2025-08-27 02:35:23.256574,2.59,8,True
+PRV-5563,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-10-11,2025-10-11 19:19:16.491460,19.32,8,False
+PRV-5564,Provisioning,Sales,Active Directory,2025-07-14,2025-07-14 05:50:30.028094,5.84,8,True
+PRV-5565,Provisioning,Marketing,Microsoft Entra ID,2025-09-18,2025-09-18 00:30:00.000000,0.5,8,True
+PRV-5566,Deprovisioning,Legal,Microsoft Entra ID,2026-04-26,2026-04-26 00:16:16.455231,0.27,4,True
+PRV-5567,Deprovisioning,Legal,Hybrid (AD + Entra ID),2025-07-24,2025-07-24 14:48:09.650860,14.8,4,False
+PRV-5568,Provisioning,Operations,Microsoft Entra ID,2026-01-19,2026-01-19 01:56:50.178634,1.95,8,True
+PRV-5569,Provisioning,Marketing,Microsoft Entra ID,2026-05-28,2026-05-28 04:15:41.997697,4.26,8,True
+PRV-5570,Deprovisioning,Operations,Microsoft Entra ID,2025-10-11,2025-10-11 01:06:28.497378,1.11,4,True
+PRV-5571,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-05-01,2026-05-01 01:18:10.777908,1.3,4,True
+PRV-5572,Provisioning,HR,Hybrid (AD + Entra ID),2025-07-25,2025-07-25 00:30:00.000000,0.5,8,True
+PRV-5573,Deprovisioning,Operations,Active Directory,2026-03-31,2026-03-31 14:34:37.413145,14.58,4,False
+PRV-5574,Provisioning,Finance,Hybrid (AD + Entra ID),2025-07-13,2025-07-13 00:30:00.000000,0.5,8,True
+PRV-5575,Provisioning,Legal,Microsoft Entra ID,2025-10-27,2025-10-27 02:10:45.866355,2.18,8,True
+PRV-5576,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2026-03-08,2026-03-08 05:05:47.335766,5.1,4,False
+PRV-5577,Provisioning,Engineering,Microsoft Entra ID,2025-07-14,2025-07-14 07:09:05.276143,7.15,8,True
+PRV-5578,Deprovisioning,Sales,Active Directory,2026-05-29,2026-05-29 00:45:42.506448,0.76,4,True
+PRV-5579,Deprovisioning,Legal,Microsoft Entra ID,2025-08-28,2025-08-28 00:30:03.925918,0.5,4,True
+PRV-5580,Provisioning,Operations,Microsoft Entra ID,2025-11-18,2025-11-18 06:48:07.567543,6.8,8,True
+PRV-5581,Provisioning,Sales,Active Directory,2026-05-31,2026-05-31 06:39:07.377106,6.65,8,True
+PRV-5582,Provisioning,HR,Microsoft Entra ID,2026-02-02,2026-02-02 01:29:23.637877,1.49,8,True
+PRV-5583,Provisioning,Legal,Microsoft Entra ID,2025-08-25,2025-08-25 02:43:25.194907,2.72,8,True
+PRV-5584,Provisioning,Legal,Microsoft Entra ID,2026-01-16,2026-01-16 03:27:23.587341,3.46,8,True
+PRV-5585,Provisioning,HR,Hybrid (AD + Entra ID),2025-11-18,2025-11-18 01:39:11.312069,1.65,8,True
+PRV-5586,Deprovisioning,HR,Microsoft Entra ID,2025-09-16,2025-09-16 03:02:54.096046,3.05,4,True
+PRV-5587,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2026-03-15,2026-03-15 00:39:12.159895,0.65,4,True
+PRV-5588,Provisioning,Finance,Hybrid (AD + Entra ID),2026-03-11,2026-03-11 02:38:16.918667,2.64,8,True
+PRV-5589,Deprovisioning,Finance,Active Directory,2025-07-13,2025-07-13 02:32:16.322866,2.54,4,True
+PRV-5590,Deprovisioning,Engineering,Microsoft Entra ID,2026-03-29,2026-03-29 02:05:35.238746,2.09,4,True
+PRV-5591,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-11-11,2025-11-11 05:38:23.733927,5.64,4,False
+PRV-5592,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-06-21,2026-06-21 05:11:40.792622,5.19,8,True
+PRV-5593,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-03-11,2026-03-11 04:46:58.353291,4.78,4,False
+PRV-5594,Provisioning,HR,Active Directory,2026-02-21,2026-02-21 02:28:56.190427,2.48,8,True
+PRV-5595,Provisioning,Legal,Active Directory,2026-06-08,2026-06-08 01:26:47.332587,1.45,8,True
+PRV-5596,Deprovisioning,HR,Microsoft Entra ID,2025-07-13,2025-07-13 00:50:45.943600,0.85,4,True
+PRV-5597,Provisioning,Legal,Hybrid (AD + Entra ID),2026-06-08,2026-06-08 00:30:00.000000,0.5,8,True
+PRV-5598,Deprovisioning,Operations,Active Directory,2026-02-11,2026-02-11 03:06:22.035397,3.11,4,True
+PRV-5599,Provisioning,Engineering,Microsoft Entra ID,2026-03-09,2026-03-09 00:51:10.582132,0.85,8,True
+PRV-5600,Provisioning,Operations,Microsoft Entra ID,2025-09-27,2025-09-27 04:19:59.563889,4.33,8,True
+PRV-5601,Provisioning,Finance,Hybrid (AD + Entra ID),2025-11-27,2025-11-27 00:30:00.000000,0.5,8,True
+PRV-5602,Deprovisioning,HR,Active Directory,2026-05-06,2026-05-06 00:14:56.356303,0.25,4,True
+PRV-5603,Deprovisioning,Legal,Microsoft Entra ID,2026-03-09,2026-03-09 03:49:24.770782,3.82,4,True
+PRV-5604,Provisioning,Sales,Microsoft Entra ID,2026-01-17,2026-01-17 04:11:03.848756,4.18,8,True
+PRV-5605,Provisioning,Sales,Microsoft Entra ID,2025-09-16,2025-09-16 07:13:29.175010,7.22,8,True
+PRV-5606,Provisioning,HR,Microsoft Entra ID,2025-12-26,2025-12-26 04:33:19.346313,4.56,8,True
+PRV-5607,Provisioning,Operations,Hybrid (AD + Entra ID),2026-05-28,2026-05-28 12:07:36.207566,12.13,8,False
+PRV-5608,Provisioning,Sales,Microsoft Entra ID,2025-08-27,2025-08-27 00:30:00.000000,0.5,8,True
+PRV-5609,Deprovisioning,Marketing,Microsoft Entra ID,2025-10-29,2025-10-29 05:44:04.651438,5.73,4,False
+PRV-5610,Provisioning,Operations,Microsoft Entra ID,2025-07-20,2025-07-20 00:42:18.108394,0.71,8,True
+PRV-5611,Provisioning,Engineering,Active Directory,2026-01-22,2026-01-22 02:27:07.372131,2.45,8,True
+PRV-5612,Provisioning,Marketing,Active Directory,2026-01-03,2026-01-03 03:50:13.089053,3.84,8,True
+PRV-5613,Deprovisioning,HR,Microsoft Entra ID,2025-08-20,2025-08-20 04:45:04.599623,4.75,4,False
+PRV-5614,Provisioning,Sales,Microsoft Entra ID,2025-08-11,2025-08-11 08:14:27.162621,8.24,8,False
+PRV-5615,Provisioning,Legal,Microsoft Entra ID,2026-03-20,2026-03-20 00:32:04.139501,0.53,8,True
+PRV-5616,Deprovisioning,Operations,Microsoft Entra ID,2026-03-03,2026-03-03 02:27:55.232782,2.47,4,True
+PRV-5617,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-03-03,2026-03-03 05:36:53.030611,5.61,4,False
+PRV-5618,Deprovisioning,Sales,Microsoft Entra ID,2026-03-21,2026-03-21 01:41:05.902477,1.68,4,True
+PRV-5619,Provisioning,Marketing,Microsoft Entra ID,2026-05-06,2026-05-06 02:01:29.502952,2.02,8,True
+PRV-5620,Deprovisioning,Legal,Active Directory,2026-03-21,2026-03-21 05:07:46.394968,5.13,4,False
+PRV-5621,Deprovisioning,Finance,Microsoft Entra ID,2025-12-15,2025-12-15 02:34:15.166988,2.57,4,True
+PRV-5622,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-08-31,2025-08-31 01:03:05.003872,1.05,4,True
+PRV-5623,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-01-08,2026-01-08 04:03:44.793084,4.06,4,False
+PRV-5624,Provisioning,Finance,Hybrid (AD + Entra ID),2025-10-16,2025-10-16 00:30:00.000000,0.5,8,True
+PRV-5625,Provisioning,Engineering,Microsoft Entra ID,2025-12-12,2025-12-12 00:30:00.000000,0.5,8,True
+PRV-5626,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-03-25,2026-03-25 04:19:21.711324,4.32,4,False
+PRV-5627,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-06-23,2026-06-23 01:54:13.536175,1.9,4,True
+PRV-5628,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-10-26,2025-10-26 15:37:51.654298,15.63,8,False
+PRV-5629,Provisioning,Sales,Hybrid (AD + Entra ID),2025-11-23,2025-11-23 00:30:00.000000,0.5,8,True
+PRV-5630,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-10-24,2025-10-24 01:21:50.317473,1.36,8,True
+PRV-5631,Provisioning,HR,Active Directory,2025-12-09,2025-12-09 03:26:09.294299,3.44,8,True
+PRV-5632,Provisioning,Sales,Hybrid (AD + Entra ID),2025-11-28,2025-11-28 00:34:55.345566,0.58,8,True
+PRV-5633,Deprovisioning,Operations,Microsoft Entra ID,2026-05-22,2026-05-22 00:45:20.126834,0.76,4,True
+PRV-5634,Deprovisioning,Engineering,Active Directory,2026-03-25,2026-03-25 02:19:47.196332,2.33,4,True
+PRV-5635,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2026-06-09,2026-06-09 02:46:12.010552,2.77,4,True
+PRV-5636,Deprovisioning,Marketing,Microsoft Entra ID,2026-04-29,2026-04-29 06:35:53.539084,6.6,4,False
+PRV-5637,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-12-07,2025-12-07 01:29:50.770095,1.5,4,True
+PRV-5638,Deprovisioning,HR,Active Directory,2026-06-11,2026-06-11 03:42:41.772745,3.71,4,True
+PRV-5639,Provisioning,HR,Microsoft Entra ID,2026-01-04,2026-01-04 02:56:33.644516,2.94,8,True
+PRV-5640,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-12-18,2025-12-18 03:14:42.121853,3.25,4,True
+PRV-5641,Provisioning,Sales,Microsoft Entra ID,2026-06-25,2026-06-25 02:04:34.233495,2.08,8,True
+PRV-5642,Provisioning,Engineering,Microsoft Entra ID,2025-07-21,2025-07-21 05:17:45.019035,5.3,8,True
+PRV-5643,Provisioning,Sales,Hybrid (AD + Entra ID),2026-02-14,2026-02-14 02:06:18.317485,2.11,8,True
+PRV-5644,Provisioning,Finance,Hybrid (AD + Entra ID),2025-12-09,2025-12-09 00:34:44.805435,0.58,8,True
+PRV-5645,Provisioning,Operations,Microsoft Entra ID,2025-11-02,2025-11-02 10:47:28.158577,10.79,8,False
+PRV-5646,Provisioning,Sales,Hybrid (AD + Entra ID),2025-12-09,2025-12-09 09:35:12.275744,9.59,8,False
+PRV-5647,Provisioning,Operations,Microsoft Entra ID,2026-03-30,2026-03-30 12:52:36.089608,12.88,8,False
+PRV-5648,Provisioning,Operations,Microsoft Entra ID,2026-05-24,2026-05-24 01:15:50.847537,1.26,8,True
+PRV-5649,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-24,2025-07-24 00:30:00.000000,0.5,8,True
+PRV-5650,Deprovisioning,Operations,Active Directory,2026-02-03,2026-02-03 02:40:37.512258,2.68,4,True
+PRV-5651,Provisioning,Finance,Hybrid (AD + Entra ID),2026-06-26,2026-06-26 00:30:00.000000,0.5,8,True
+PRV-5652,Provisioning,Operations,Microsoft Entra ID,2025-10-28,2025-10-28 05:12:53.080284,5.21,8,True
+PRV-5653,Deprovisioning,Legal,Hybrid (AD + Entra ID),2025-08-16,2025-08-16 01:54:12.594765,1.9,4,True
+PRV-5654,Deprovisioning,HR,Microsoft Entra ID,2025-11-03,2025-11-03 00:41:31.578325,0.69,4,True
+PRV-5655,Provisioning,Legal,Hybrid (AD + Entra ID),2025-12-21,2025-12-21 03:22:51.981823,3.38,8,True
+PRV-5656,Provisioning,Finance,Active Directory,2025-10-20,2025-10-20 02:52:17.362245,2.87,8,True
+PRV-5657,Provisioning,HR,Active Directory,2025-09-24,2025-09-24 06:16:44.658706,6.28,8,True
+PRV-5658,Deprovisioning,Engineering,Microsoft Entra ID,2026-06-20,2026-06-20 02:59:38.205830,2.99,4,True
+PRV-5659,Provisioning,Marketing,Active Directory,2026-06-04,2026-06-04 01:08:04.433471,1.13,8,True
+PRV-5660,Provisioning,Operations,Microsoft Entra ID,2026-06-20,2026-06-20 01:59:37.625707,1.99,8,True
+PRV-5661,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-11-24,2025-11-24 02:05:17.299159,2.09,4,True
+PRV-5662,Provisioning,Engineering,Active Directory,2026-04-23,2026-04-23 00:30:46.372468,0.51,8,True
+PRV-5663,Deprovisioning,Engineering,Active Directory,2025-12-23,2025-12-23 00:12:00.000000,0.2,4,True
+PRV-5664,Deprovisioning,Operations,Microsoft Entra ID,2026-06-17,2026-06-17 02:03:24.637474,2.06,4,True
+PRV-5665,Provisioning,Marketing,Active Directory,2026-06-07,2026-06-07 04:47:51.865154,4.8,8,True
+PRV-5666,Provisioning,Marketing,Microsoft Entra ID,2025-12-06,2025-12-06 02:41:13.492868,2.69,8,True
+PRV-5667,Provisioning,HR,Hybrid (AD + Entra ID),2026-06-12,2026-06-12 00:30:00.000000,0.5,8,True
+PRV-5668,Deprovisioning,HR,Microsoft Entra ID,2025-07-30,2025-07-30 01:11:20.457484,1.19,4,True
+PRV-5669,Deprovisioning,Legal,Hybrid (AD + Entra ID),2026-06-25,2026-06-25 00:25:00.384490,0.42,4,True
+PRV-5670,Provisioning,Finance,Active Directory,2026-03-23,2026-03-23 04:00:45.592716,4.01,8,True
+PRV-5671,Provisioning,Sales,Microsoft Entra ID,2025-11-10,2025-11-10 12:36:55.803163,12.62,8,False
+PRV-5672,Provisioning,Legal,Active Directory,2025-09-07,2025-09-07 05:40:55.309130,5.68,8,True
+PRV-5673,Deprovisioning,Finance,Active Directory,2025-11-09,2025-11-09 01:01:43.211290,1.03,4,True
+PRV-5674,Provisioning,Operations,Hybrid (AD + Entra ID),2026-06-14,2026-06-14 02:52:51.932295,2.88,8,True
+PRV-5675,Provisioning,Operations,Hybrid (AD + Entra ID),2025-07-10,2025-07-10 07:21:12.559989,7.35,8,True
+PRV-5676,Deprovisioning,Sales,Microsoft Entra ID,2025-08-11,2025-08-11 02:57:15.827342,2.95,4,True
+PRV-5677,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-04-03,2026-04-03 02:21:13.489449,2.35,8,True
+PRV-5678,Deprovisioning,HR,Active Directory,2026-02-15,2026-02-15 02:20:13.816804,2.34,4,True
+PRV-5679,Provisioning,Engineering,Microsoft Entra ID,2025-12-06,2025-12-06 01:11:49.664322,1.2,8,True
+PRV-5680,Deprovisioning,Sales,Hybrid (AD + Entra ID),2025-10-04,2025-10-04 04:21:08.065194,4.35,4,False
+PRV-5681,Provisioning,Operations,Microsoft Entra ID,2025-10-15,2025-10-15 01:15:06.228184,1.25,8,True
+PRV-5682,Deprovisioning,Operations,Microsoft Entra ID,2026-04-24,2026-04-24 02:25:50.947408,2.43,4,True
+PRV-5683,Deprovisioning,Engineering,Active Directory,2025-07-08,2025-07-08 03:08:12.941735,3.14,4,True
+PRV-5684,Deprovisioning,Sales,Microsoft Entra ID,2026-03-29,2026-03-29 02:52:23.126364,2.87,4,True
+PRV-5685,Provisioning,Sales,Microsoft Entra ID,2025-09-08,2025-09-08 07:25:15.671802,7.42,8,True
+PRV-5686,Deprovisioning,Finance,Microsoft Entra ID,2025-10-19,2025-10-19 01:25:12.596090,1.42,4,True
+PRV-5687,Deprovisioning,Operations,Hybrid (AD + Entra ID),2026-01-01,2026-01-01 01:22:53.814946,1.38,4,True
+PRV-5688,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-09-08,2025-09-08 01:51:14.219580,1.85,4,True
+PRV-5689,Deprovisioning,Sales,Microsoft Entra ID,2025-11-14,2025-11-14 04:18:11.564539,4.3,4,False
+PRV-5690,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-11-06,2025-11-06 01:10:39.441586,1.18,4,True
+PRV-5691,Provisioning,Legal,Active Directory,2026-02-03,2026-02-03 01:02:13.928817,1.04,8,True
+PRV-5692,Provisioning,HR,Active Directory,2026-05-25,2026-05-25 07:13:08.551950,7.22,8,True
+PRV-5693,Deprovisioning,Engineering,Microsoft Entra ID,2026-04-24,2026-04-24 02:12:08.727623,2.2,4,True
+PRV-5694,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-07-24,2025-07-24 01:00:20.880477,1.01,4,True
+PRV-5695,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-08-22,2025-08-22 04:42:04.789358,4.7,4,False
+PRV-5696,Provisioning,Legal,Active Directory,2025-10-12,2025-10-12 08:16:27.428408,8.27,8,False
+PRV-5697,Deprovisioning,Operations,Microsoft Entra ID,2025-10-18,2025-10-18 07:40:37.930377,7.68,4,False
+PRV-5698,Provisioning,Legal,Microsoft Entra ID,2025-12-02,2025-12-02 17:12:17.293318,17.2,8,False
+PRV-5699,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-07,2025-07-07 09:44:37.617956,9.74,8,False
+PRV-5700,Provisioning,Operations,Hybrid (AD + Entra ID),2026-01-29,2026-01-29 11:54:45.174499,11.91,8,False
+PRV-5701,Provisioning,Finance,Hybrid (AD + Entra ID),2026-03-05,2026-03-05 01:53:58.057826,1.9,8,True
+PRV-5702,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-04,2025-07-04 02:40:49.223927,2.68,8,True
+PRV-5703,Provisioning,Sales,Active Directory,2026-01-07,2026-01-07 01:25:55.038263,1.43,8,True
+PRV-5704,Provisioning,Marketing,Active Directory,2026-06-21,2026-06-21 00:53:12.196108,0.89,8,True
+PRV-5705,Deprovisioning,Sales,Microsoft Entra ID,2025-07-20,2025-07-20 04:12:23.440966,4.21,4,False
+PRV-5706,Deprovisioning,Marketing,Microsoft Entra ID,2026-03-26,2026-03-26 02:44:06.977091,2.74,4,True
+PRV-5707,Provisioning,Sales,Microsoft Entra ID,2025-11-10,2025-11-10 00:57:30.238644,0.96,8,True
+PRV-5708,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-25,2025-07-25 06:00:20.412430,6.01,8,True
+PRV-5709,Deprovisioning,Sales,Hybrid (AD + Entra ID),2026-04-02,2026-04-02 05:17:32.788523,5.29,4,False
+PRV-5710,Provisioning,Finance,Microsoft Entra ID,2026-01-01,2026-01-01 01:22:24.906861,1.37,8,True
+PRV-5711,Deprovisioning,Marketing,Active Directory,2026-06-05,2026-06-05 00:47:00.299795,0.78,4,True
+PRV-5712,Provisioning,Marketing,Active Directory,2025-07-06,2025-07-06 00:30:00.000000,0.5,8,True
+PRV-5713,Deprovisioning,Finance,Microsoft Entra ID,2025-07-13,2025-07-13 00:12:00.000000,0.2,4,True
+PRV-5714,Provisioning,HR,Hybrid (AD + Entra ID),2025-07-14,2025-07-14 01:32:05.978623,1.53,8,True
+PRV-5715,Provisioning,HR,Active Directory,2025-07-16,2025-07-16 00:50:15.369875,0.84,8,True
+PRV-5716,Deprovisioning,Finance,Hybrid (AD + Entra ID),2025-07-31,2025-07-31 06:09:00.566676,6.15,4,False
+PRV-5717,Provisioning,HR,Microsoft Entra ID,2025-08-05,2025-08-05 05:19:18.530839,5.32,8,True
+PRV-5718,Provisioning,HR,Microsoft Entra ID,2025-07-30,2025-07-30 10:24:12.050226,10.4,8,False
+PRV-5719,Deprovisioning,Marketing,Active Directory,2025-07-16,2025-07-16 01:52:35.989267,1.88,4,True
+PRV-5720,Provisioning,Legal,Hybrid (AD + Entra ID),2025-10-15,2025-10-15 06:45:12.587841,6.75,8,True
+PRV-5721,Provisioning,Engineering,Microsoft Entra ID,2026-04-27,2026-04-27 04:40:07.897569,4.67,8,True
+PRV-5722,Deprovisioning,Legal,Active Directory,2026-04-30,2026-04-30 06:53:07.254151,6.89,4,False
+PRV-5723,Provisioning,HR,Microsoft Entra ID,2025-07-16,2025-07-16 02:47:55.627896,2.8,8,True
+PRV-5724,Provisioning,HR,Hybrid (AD + Entra ID),2025-09-07,2025-09-07 00:44:31.558718,0.74,8,True
+PRV-5725,Provisioning,Engineering,Hybrid (AD + Entra ID),2026-04-21,2026-04-21 00:56:30.308461,0.94,8,True
+PRV-5726,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-03-08,2026-03-08 05:19:38.956329,5.33,8,True
+PRV-5727,Provisioning,Marketing,Hybrid (AD + Entra ID),2026-04-20,2026-04-20 00:47:27.954642,0.79,8,True
+PRV-5728,Provisioning,Engineering,Microsoft Entra ID,2026-06-22,2026-06-22 00:30:00.000000,0.5,8,True
+PRV-5729,Provisioning,Engineering,Active Directory,2026-01-25,2026-01-25 03:54:36.870381,3.91,8,True
+PRV-5730,Deprovisioning,HR,Hybrid (AD + Entra ID),2025-10-24,2025-10-24 01:10:02.359017,1.17,4,True
+PRV-5731,Deprovisioning,Operations,Hybrid (AD + Entra ID),2025-08-22,2025-08-22 01:21:16.974141,1.35,4,True
+PRV-5732,Provisioning,Sales,Active Directory,2026-06-22,2026-06-22 01:46:10.015169,1.77,8,True
+PRV-5733,Deprovisioning,Finance,Microsoft Entra ID,2025-12-04,2025-12-04 05:35:14.520250,5.59,4,False
+PRV-5734,Deprovisioning,Engineering,Active Directory,2026-03-12,2026-03-12 02:46:04.355178,2.77,4,True
+PRV-5735,Provisioning,Sales,Active Directory,2026-02-05,2026-02-05 02:31:56.739349,2.53,8,True
+PRV-5736,Provisioning,HR,Hybrid (AD + Entra ID),2025-09-24,2025-09-24 02:23:52.628191,2.4,8,True
+PRV-5737,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-11-23,2025-11-23 01:29:02.902474,1.48,8,True
+PRV-5738,Deprovisioning,Sales,Microsoft Entra ID,2025-10-02,2025-10-02 02:07:21.410386,2.12,4,True
+PRV-5739,Deprovisioning,HR,Microsoft Entra ID,2025-07-08,2025-07-08 02:37:05.228289,2.62,4,True
+PRV-5740,Provisioning,Sales,Hybrid (AD + Entra ID),2026-02-21,2026-02-21 00:30:00.000000,0.5,8,True
+PRV-5741,Provisioning,Finance,Active Directory,2026-01-03,2026-01-03 01:29:32.050540,1.49,8,True
+PRV-5742,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-12-19,2025-12-19 01:54:47.203124,1.91,8,True
+PRV-5743,Provisioning,Sales,Hybrid (AD + Entra ID),2026-04-12,2026-04-12 00:30:00.000000,0.5,8,True
+PRV-5744,Provisioning,Operations,Active Directory,2026-05-19,2026-05-19 00:37:27.652528,0.62,8,True
+PRV-5745,Provisioning,Marketing,Microsoft Entra ID,2025-08-29,2025-08-29 00:47:49.198832,0.8,8,True
+PRV-5746,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2025-10-17,2025-10-17 02:08:28.872662,2.14,4,True
+PRV-5747,Provisioning,Marketing,Microsoft Entra ID,2026-02-22,2026-02-22 00:39:56.221973,0.67,8,True
+PRV-5748,Provisioning,Finance,Microsoft Entra ID,2025-10-15,2025-10-15 02:01:59.982477,2.03,8,True
+PRV-5749,Deprovisioning,Operations,Microsoft Entra ID,2025-10-26,2025-10-26 00:12:00.000000,0.2,4,True
+PRV-5750,Deprovisioning,Legal,Hybrid (AD + Entra ID),2025-08-20,2025-08-20 00:50:18.663669,0.84,4,True
+PRV-5751,Deprovisioning,Legal,Active Directory,2026-06-09,2026-06-09 01:33:13.145918,1.55,4,True
+PRV-5752,Deprovisioning,Marketing,Hybrid (AD + Entra ID),2026-06-02,2026-06-02 03:40:34.650750,3.68,4,True
+PRV-5753,Deprovisioning,Marketing,Active Directory,2025-08-08,2025-08-08 01:39:00.474226,1.65,4,True
+PRV-5754,Provisioning,Engineering,Hybrid (AD + Entra ID),2025-07-13,2025-07-13 01:57:28.802287,1.96,8,True
+PRV-5755,Provisioning,Operations,Hybrid (AD + Entra ID),2026-06-02,2026-06-02 00:30:00.000000,0.5,8,True
+PRV-5756,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2026-05-18,2026-05-18 00:20:06.807696,0.34,4,True
+PRV-5757,Provisioning,Sales,Microsoft Entra ID,2026-03-16,2026-03-16 10:01:00.327185,10.02,8,False
+PRV-5758,Provisioning,Sales,Active Directory,2026-04-06,2026-04-06 00:51:30.630359,0.86,8,True
+PRV-5759,Provisioning,Engineering,Microsoft Entra ID,2026-01-10,2026-01-10 04:27:43.828390,4.46,8,True
+PRV-5760,Deprovisioning,Finance,Active Directory,2025-08-22,2025-08-22 02:16:39.277130,2.28,4,True
+PRV-5761,Provisioning,Sales,Microsoft Entra ID,2025-07-10,2025-07-10 04:48:14.370024,4.8,8,True
+PRV-5762,Deprovisioning,Sales,Microsoft Entra ID,2026-04-21,2026-04-21 03:04:44.222143,3.08,4,True
+PRV-5763,Provisioning,Finance,Hybrid (AD + Entra ID),2025-08-05,2025-08-05 01:13:05.625143,1.22,8,True
+PRV-5764,Provisioning,HR,Microsoft Entra ID,2025-08-13,2025-08-13 00:59:24.839278,0.99,8,True
+PRV-5765,Deprovisioning,Sales,Microsoft Entra ID,2025-09-21,2025-09-21 01:28:22.204312,1.47,4,True
+PRV-5766,Provisioning,Marketing,Microsoft Entra ID,2025-11-07,2025-11-07 11:49:48.529009,11.83,8,False
+PRV-5767,Provisioning,Finance,Active Directory,2025-10-03,2025-10-03 02:50:22.708150,2.84,8,True
+PRV-5768,Deprovisioning,Sales,Microsoft Entra ID,2025-07-13,2025-07-13 09:50:17.799384,9.84,4,False
+PRV-5769,Provisioning,Engineering,Microsoft Entra ID,2025-09-28,2025-09-28 01:17:06.639007,1.29,8,True
+PRV-5770,Provisioning,Sales,Microsoft Entra ID,2026-05-02,2026-05-02 05:49:47.809510,5.83,8,True
+PRV-5771,Provisioning,Finance,Hybrid (AD + Entra ID),2025-12-11,2025-12-11 00:30:00.000000,0.5,8,True
+PRV-5772,Deprovisioning,Engineering,Hybrid (AD + Entra ID),2025-10-24,2025-10-24 03:46:20.984781,3.77,4,True
+PRV-5773,Provisioning,Marketing,Microsoft Entra ID,2025-08-15,2025-08-15 11:21:50.923431,11.36,8,False
+PRV-5774,Deprovisioning,Finance,Microsoft Entra ID,2025-07-18,2025-07-18 00:44:14.406553,0.74,4,True
+PRV-5775,Provisioning,Operations,Hybrid (AD + Entra ID),2025-12-25,2025-12-25 02:45:48.266846,2.76,8,True
+PRV-5776,Provisioning,Marketing,Active Directory,2026-04-07,2026-04-07 05:04:11.731857,5.07,8,True
+PRV-5777,Provisioning,Operations,Hybrid (AD + Entra ID),2026-03-18,2026-03-18 01:12:28.245302,1.21,8,True
+PRV-5778,Deprovisioning,HR,Microsoft Entra ID,2026-05-09,2026-05-09 02:34:08.301325,2.57,4,True
+PRV-5779,Provisioning,Marketing,Hybrid (AD + Entra ID),2025-09-01,2025-09-01 02:32:12.856412,2.54,8,True
