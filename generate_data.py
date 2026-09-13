@@ -1,5 +1,5 @@
 """
-Generate synthetic IAM support ticket + provisioning/deprovisioning data,
+Synthetic IAM support ticket + provisioning/deprovisioning data,
 modeled on a hybrid AD / Microsoft Entra ID environment.
 """
 import numpy as np
@@ -8,8 +8,8 @@ from datetime import datetime, timedelta
 
 np.random.seed(42)
 
-N_TICKETS = 1050          # ~20/week over 1 year
-N_PROVISIONING = 780      # ~15/week over 1 year
+N_TICKETS = 1050          # ~20/week - 1 year
+N_PROVISIONING = 780      # ~15/week - 1 year
 
 departments = ["Finance", "Sales", "Engineering", "HR", "Operations", "Marketing", "Legal"]
 ticket_types = ["Password Reset", "MFA Issue", "Access Request", "Account Lockout",
@@ -21,7 +21,7 @@ start_date = datetime(2025, 7, 1)
 end_date = datetime(2026, 7, 1)
 date_range_days = (end_date - start_date).days
 
-# ---- Support Tickets ----
+# Support Tickets
 ticket_rows = []
 for i in range(N_TICKETS):
     created = start_date + timedelta(days=np.random.randint(0, date_range_days),
@@ -57,7 +57,7 @@ for i in range(N_TICKETS):
 
 tickets_df = pd.DataFrame(ticket_rows)
 
-# ---- Provisioning / Deprovisioning Events ----
+# Provisioning/Deprovisioning Events
 prov_rows = []
 for i in range(N_PROVISIONING):
     event_type = np.random.choice(["Provisioning", "Deprovisioning"], p=[0.55, 0.45])
