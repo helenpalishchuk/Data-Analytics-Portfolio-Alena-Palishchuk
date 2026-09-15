@@ -5,13 +5,13 @@ Active Directory / Microsoft Entra ID environment. This is based on the type of 
 worked with as a Support Engineer (IAM), rebuilt as a data analytics project using
 Python and SQL.
 
-## What this project does
+# What this project does
 
 I wanted to check how well SLA (service level agreement) targets were being met across
 different ticket types and departments, and whether there were any patterns worth
 flagging, especially around security risk.
 
-## Dataset
+# Dataset
 
 The dataset is synthetic (generated with realistic patterns, not real company data):
 - 1,050 support tickets from Jul 2025 to Jun 2026 (password resets, MFA issues, access
@@ -20,11 +20,11 @@ The dataset is synthetic (generated with realistic patterns, not real company da
 - 780 provisioning/deprovisioning events across 7 departments and 3 environments
   (Active Directory, Microsoft Entra ID, Hybrid)
 
-## Tools used
+# Tools used
 
 Python (pandas, matplotlib), SQL (SQLite)
 
-## What I found
+# What I found
 
 1. Deprovisioning is the biggest risk area. SLA compliance drops to 66.7% in Marketing
    and 70.2% in Legal, compared to 80%+ in Engineering and HR. This matters because
@@ -41,7 +41,7 @@ Python (pandas, matplotlib), SQL (SQLite)
 4. Agent performance was fairly even across the team, 91-95% SLA compliance, no major
    outliers.
 
-## Files
+# Files
 
 - generate_data.py: generates the synthetic datasets
 - tickets.csv / provisioning.csv: the raw data
@@ -51,7 +51,7 @@ Python (pandas, matplotlib), SQL (SQLite)
 - chart_monthly_volume.png, chart_sla_by_type.png, chart_deprovisioning_sla.png,
   chart_provisioning_by_environment.png: the output charts
 
-## What I'd recommend
+# What I'd recommend
 
 Automating the deprovisioning process so it triggers as soon as HR records an employee's
 end date, instead of relying on manual steps. That's where most of the delays and SLA
